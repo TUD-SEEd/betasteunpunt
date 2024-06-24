@@ -29,6 +29,7 @@ sphinx:
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
+    - sphinx_exercise
 
 bibtex_bibfiles: 
   - references.bib
