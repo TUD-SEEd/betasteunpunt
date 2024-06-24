@@ -9,12 +9,10 @@ parts:
       - file: some_content/text_and_code.ipynb
     - file: references.md
 
-parts:
   - caption: Python
     chapters:
     - file: Python/Python_intro
 
-parts:
   - caption: Jupyter Book
     chapters:
     - file: JB/JB_intro
