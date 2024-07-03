@@ -9,6 +9,11 @@ parts:
       - file: some_content/text_and_code.ipynb
     - file: references.md
 
+  - caption: Software
+    chapters:
+    - file: JB/Github
+    - file: JB/VSC
+
   - caption: Python
     chapters:
     - file: Python/Python_intro
@@ -23,5 +28,4 @@ parts:
     chapters:
     - file: JB/JB_intro
     - file: JB/Stappen.md
-    - file: JB/Github
-    - file: JB/VSC
+    
