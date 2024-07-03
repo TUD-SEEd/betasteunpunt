@@ -22,3 +22,6 @@ parts:
   - caption: Jupyter Book
     chapters:
     - file: JB/JB_intro
+    - file: JB/Stappen.md
+    - file: JB/Github
+    - file: JB/VSC
