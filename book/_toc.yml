@@ -2,17 +2,11 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
-    chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: references.md
-
   - caption: Software
     chapters:
-    - file: JB/Github
-    - file: JB/VSC
+    - file: Software/Github
+    - file: Software/VSC
+    - file: Software/Anaconda
 
   - caption: Python
     chapters:
