@@ -9,7 +9,7 @@ width: 80%
 Een voorbeeld van een Jupyter Book: het dictaat dat gebruikt wordt in het eerstejaarspracticum aan de opleiding Technische Natuurkunde (Delft).
 ```
 
-In deze workshop leer je de basis om je eigen boek te maken. Daarbij maken we gebruik van [Teachbooks](https://www.teachbooks.tudelft.nl), een template met veel standaard mogelijkheden voor programmeren in Python en andere interactieve elementen reeds ingebouwd.
+In deze workshop leer je de basis om je eigen boek te maken. Daarbij maken we gebruik van [Teachbooks](https://teachbooks.tudelft.nl/), een template met veel standaard mogelijkheden voor programmeren in Python en andere interactieve elementen reeds ingebouwd.
 
 ## Randvoorwaarden
 Er zijn een paar dingen die je moet weten / hebben wil je aan de slag gaan met het maken van een online boek:
