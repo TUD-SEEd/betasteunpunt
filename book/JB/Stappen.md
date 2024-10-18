@@ -1,6 +1,6 @@
 # Aan de slag
 
-We gaan er vanuit dat je een [Github](../software/Github.md) account hebt (aangemaakt) en dat je [Github Desktop](githubdesktop) hebt geïnstalleerd.
+We gaan er vanuit dat je een [Github](../Software/Github.md) account hebt (aangemaakt) en dat je [Github Desktop](https://desktop.github.com/download/) hebt geïnstalleerd.
 
 Volg de volgende stappen uit deze animatie, hieronder stapgewijs uitgewerkt:
 ``` {figure} ../figures/teachbooks-template.gif
