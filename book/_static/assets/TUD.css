@@ -1,0 +1,14 @@
+/* Custom CSS for TUD theme */
+
+/* https://www.tudelft.nl/en/tu-delft-corporate-design/components/colour*/
+h1 {
+    color: rgb(0, 166, 214) !important;
+}
+
+h2 {
+    color: rgb(0, 118, 194) !important;
+}
+
+body {
+    background-color: white !important;
+}
