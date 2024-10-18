@@ -22,5 +22,3 @@ Er zijn een paar dingen die je moet weten / hebben wil je aan de slag gaan met h
 
 Klaar? Laten we beginnen..
 
-
-https://www.youtube.com/watch?v=kgoLqlVF0Tc

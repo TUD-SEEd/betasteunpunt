@@ -22,4 +22,9 @@ parts:
     chapters:
     - file: JB/JB_intro
     - file: JB/Stappen.md
-    
+
+  - caption: IVO
+    chapters:
+    - file: IVO/opdracht
+      sections:
+      - file: IVO/basic    
