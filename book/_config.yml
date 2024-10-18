@@ -11,6 +11,7 @@ html:
   favicon : "figures/favicon.ico"
   baseurl :  "https://teachbooks.github.io/template/" #Replace this with your own URL
   home_page_in_navbar       : true
+  extra_css: ["_static/custom.css"]
 
 sphinx:
   config:
