@@ -6,7 +6,7 @@ Evides, vertegenwoordigd door David Moed en Marthe de Graaff.
 Evides Waterbedrijf is één van de grootste waterbedrijven in Nederland. Jaarlijks levert Evides ongeveer 158 miljoen m3
  drinkwater aan 2,5 miljoen consumenten en bedrijven in Zuid-Holland, Zeeland en Brabant. Evides Industriewater levert daarnaast betrouwbare en duurzame wateroplossingen op maat voor de industrie. Hieronder valt ook het zuiveren van industrieel afvalwater.
 
-```{figure} https://www.wikidata.org/wiki/Q2199007#/media/File:Evides_NV_%E2%80%93_Logo.png
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Evides_NV_%E2%80%93_Logo.png/1920px-Evides_NV_%E2%80%93_Logo.png
 ---
 width: 80%
 figclass: margin
@@ -30,7 +30,7 @@ Ontwerp een concept dat de waterkwaliteit van het Nederlandse oppervlaktewater v
 De eerste stap in het verbeteren van de waterkwaliteit is om te onderzoeken welke richtlijnen gelden vanaf 2027. De opdrachtgever verwacht een infographic waarin de richtlijnen zijn weergegeven.  
 ```
 
-```{Onderzoeken} 
+```{exercise} Onderzoeken
 :label: ex_Alfabet
 
 Onderzoek welke oplossingen al gebruikt worden op verschillende plekken in Nederland om aan de richtlijnen voor de waterkwaliteit te gaan voldoen. 
@@ -38,19 +38,19 @@ Analyseer hierbij ook een rivier naar keuze. Welke bronnen zorgen voor vervuilin
 Verwerk de informatie in een overzicht in woord en beeld.
 ```
 
-```{Programma van Eisen} 
+```{exercise} Programma van Eisen
 :label: ex_Alfabet
 
 De opdrachtgever verwacht een PvE voor een waterkwaliteitsverbeterend concept op basis van de gevonden informatie. Het PvE bevat minimaal 8 eisen.
 ```
 
-```{Ideefase} 
+```{exercise} Ideefase
 :label: ex_Alfabet
 
 De opdrachtgever verwacht een brainstorm waarin 30 ideeën worden bedacht waarmee de waterkwaliteit verbeterd kan worden. Deze ideeën kunnen bijvoorbeeld worden weergegeven in conceptuele schetsen, visualisaties, storyboards, morfologische kaart, etc.
 ```
 
-```{Conceptfase} 
+```{exercise} Conceptfase
 :label: ex_Alfabet
 
 Ontwikkel vanuit de ideefase vier concepten om te presenteren aan de opdrachtgever. Hierbij kunnen meerdere ideeën gecombineerd worden binnen de concepten.
@@ -58,13 +58,13 @@ Ontwikkel vanuit de ideefase vier concepten om te presenteren aan de opdrachtgev
 
 ## Tussenpresentatie
 
-```{Keuze concept} 
+```{exercise} Keuze concept
 :label: ex_Alfabet
 
 Aan de hand van de tussenpresentatie wordt één concept uitgekozen om verder uit te werken. Onderbouw de gemaakte keuze, bijvoorbeeld met een PvE-checklist.
 ```
 
-```{Definitief concept} 
+```{exercise} Definitief concept
 :label: ex_Alfabet
 
 Werk het gekozen concept uit in een presentatiewaardige vorm naar keuze die passend is voor het concept.

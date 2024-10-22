@@ -6,17 +6,15 @@ Bereken exact de afstand van het punt C(1,-10) tot de lijn door de punten A(-5,-
 ```{figure} https://teachbooks.github.io/Showing-Physics/main/_images/FP.JPG
 Uitwerking
 
-
-
-
-
 ```
-### Hints
+
+```{tip}
 Loop de volgende stappen een voor een af:
 1. Stel de vergelijking op van de lijn $k$ door A en B
 2. Stel een vergelijking op van de lijn $l$ loodrecht op $k$ en door C
 3. Bereken het snijpunt S van $k$ en $l$
 4. Bereken de afstand tussen C en S
+```
 
 Een andere manier is de afstandformule te gebruiken.
  1. Stel de vergelijking op van de lijn $k$ door A en B

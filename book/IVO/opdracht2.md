@@ -27,20 +27,18 @@ Hieronder staat een tabel. Ik ben erg benieuwd of dit gaat werken haha
 Ook als de opmaak van de tabel niet gelukt is, kun je er nog steeds mee werken!
 ```
 
-### Vraag a
-Verbind de volgende woorden.
-Aanrijkosten      ◦           ◦    Hellingsgetal
+```{exercise}
+a) Verbind de volgende woorden:
+
+Aanrijkosten      ◦           ◦    Hellingsgetal\
 Kosten per uur    ◦           ◦    Startgetal
 
-### Vraag b
-Welk startgetal hoort bij de tabel?
+b) Welk startgetal hoort bij de tabel?
 
-### Vraag c
-Welk hellingsgetal hoort bij de tabel?
+c) Welk hellingsgetal hoort bij de tabel?
 
-### Vraag d
-Wat is de bijbehorende formule?
-
+d) Wat is de bijbehorende formule?
+```
 
 ```{note}
 Er kan niet zo veel mis gaan...maar ik snap het nog niet helemaal haha
