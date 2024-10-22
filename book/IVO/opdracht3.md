@@ -36,7 +36,7 @@ Wil je verdere uitleg, mij nie appen. Vraag het menno!
   <iframe
     width="560"   
     height="315"
-    src="https://www.youtube.com/watch?v=k3bxtcriong"
+    src="https://www.youtube.com/embed/k3bxtcriong?si=sfBLYpHlWWInT4hk"
     align="center"
     frameborder="0"
     allowfullscreen
