@@ -22,3 +22,5 @@ GitHub Desktop is een grafische gebruikersinterface (GUI) om (eenvoudiger) te we
 ```{note}
 Werk je met TUD Gitlab, dan is een net andere aanpak nodig, zie de [beschrijving van de collega's](https://mude.citg.tudelft.nl/2023/software/git_install/).
 ```
+
+

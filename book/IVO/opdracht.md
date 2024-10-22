@@ -9,4 +9,4 @@ Deze IVO opdracht is gericht op het maken van je eerste 'chapter' voor een onlin
 2. Download de [basic markdown file](./basic.md) en open deze (bijvoorbeeld) met kladblok.
 3. Zet een opdracht die je hebt om naar een markdown file. Gebruik  ook de [handleiding van Teachbooks](https://teachbooks.tudelft.nl/jupyter-book-manual/basic-features/overview.html) om te kijken naar de (interactieve) functionaliteit die je wilt opnemen...
 4. Gebruik eventueel de [online markdown editor](https://stackedit.io/app#) om je te helpen bij het omzetten van het document.
-5. Stuur het bestand op naar Freek om de output hieronder te kunnen zien.
+5. Stuur het bestand op naar Freek om de output hieronder te kunnen zien. (Of heb je github, doe een merge request)
