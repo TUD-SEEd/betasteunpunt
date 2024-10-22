@@ -10,6 +10,7 @@ parts:
     - file: Software/Anaconda
 
   - caption: Python
+    numbered: true
     chapters:
     - file: Python/Python_intro
     - file: Python/Programma
@@ -20,11 +21,13 @@ parts:
     - file: Python/Python dag 5
 
   - caption: Jupyter Book
+    numbered: true
     chapters:
     - file: JB/JB_intro
     - file: JB/Stappen.md
 
   - caption: IVO
+    numbered: true
     chapters:
     - file: IVO/opdracht
       sections:
