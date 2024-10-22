@@ -1,27 +1,26 @@
 # Cheatsheet
+Hier een aantal standaard codes als referentie.
 
 ## Headings
-
-`# Chapter`
-
-`## Section`
-
-`### Subsection`
+Onderscheid in titels voor chapters `# Chapter`, secties `## Section` en subsecties`### Subsection`.
 
 ## Figuren
+Aanmaken van een figuur, met label (name)
 ````
     ```{figure} <figurename>.png/.jpg
     ---
-    height/width: <height or width in percentage>
-    name: <name of figure's label>
+    width: <breedte in percentage>
+    name: <label van de figuur>
     align: left / center / right
-    figclass: left blank or "margin"
+    figclass: left blank of <margin>
     ---
     <Figure caption>
     ```
 ````
 
 ## YT Video
+Gebruik bij het embedden van YT video de insluitingslink van YT.
+
 ````
     <div style="display: flex; justify-content: center;">
         <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
@@ -48,67 +47,143 @@ Waarbij gelabelde vergelijkingen, zoals {eq}`eq:Newton` naar verwezen kan worden
 
 Maar je kunt ook inline vergelijkingen opnemen zoals deze: $s=v_{gem}t$. Daarbij gebruik je een enkele dollar teken voor en na je `$ Vergelijking $`
 
-**Machten**
-`^ tot de macht`
-Bijv:
-`e^{2x}`
-geeft:
 
-$$e^{2x}$$
+|Naam|Script|Symbolen|
+|---|---|---|
+|wortel|`\sqrt{4}`|$\sqrt{4}$|
+|macht|`^{2x}`|$^{2x}$|
+|breuk|`\frac{2}{3}`|$\frac{2}{3}$|
+|subscript|`_{gem}`|$_{gem}$
+|superscript|`^{N}`|$^{N}$|
+|vermenigvuldig|`\cdot`|$\cdot$|
 
-**Breuk**
-`\frac{}{}`
-bijv. 
-`\frac{2}{3}`
-geeft:
-
-$$\frac{2}{3}$$
-
-**Symbolen**
-|||
-|---|---|
-|`\sqrt`|$\sqrt$|
-
+Met wat voorbeelden:
+|Naam|Script|Symbolen|
+|---|---|---|
+|Afgeleide|`\frac{\Delta f}{\Delta t}`|$\frac{\Delta f}{\Delta t}$|
+|Integraal|`\int_a^b dx`|$\int_a^b dx$|
+|sinus|`sin(x)`|$sin(x)$|
 
 Uitgebreider: https://en.wikibooks.org/wiki/LaTeX/Mathematics
 
 ## Tabellen
 
+Tabellen worden gemaakt met scheidingsteken `|`
+Bijvoorbeeld:
+```
+|Kop 1|Kop 2|Kop3|
+|---|---|---|
+|tekst 1|tekst 2|tekst 3|
+|tekst 4|tekst 5|tekst 6|
+```
+
+Met als output:
+|Kop 1|Kop 2|Kop3|
+|---|---|---|
+|tekst 1|tekst 2|tekst 3|
+|tekst 4|tekst 5|tekst 6|
+
+Of via ...
+````
+    ```{list-table} Overzicht van sancties bij bepaald gedrag
+    :header-rows: 1
+    :name: sancties
+    * - Gedrag
+      - Sanctie bij 1e keer
+      - Sanctie bij 2e keer
+    * - Niet (tijdig of met een geldige reden) afgemeld 
+      - Een penalty                                       
+      - uitsluiting              
+    ``` 
+````
+
+Met als output:
+```{list-table} Overzicht van sancties bij bepaald gedrag
+:header-rows: 1
+:name: tb_sancties
+* - Gedrag
+  - Sanctie bij 1e keer
+  - Sanctie bij 2e keer
+* - Niet (tijdig of met een geldige reden) afgemeld 
+  - Een penalty                                       
+  - uitsluiting              
+``` 
+
+Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tb_sancties>`
 
 ## Referenties
+Hier kun je een [link](https://nos.nl) kwijt met: `[tekst](url)`
 
-`[tekst](url)`
+Of de verwijzing naar vergelijking {eq}`eq:Newton` met ``` {eq}`label vergelijking` ```
+
+Of naar een tabel zoals {numref}`Tabel {number} <tb_sancties>` met ``` {numref}`Tabel {number} <tabel label>` ```
+
+Of naar een figuur zoals {numref}`Figuur {number} <figuur>` met ``` {numref}`Figuur {number} <figuur>` ```
 
 ## Admonitions
+Er zijn een paar voorgeprogrammeerde blokken. Dit zijn: 
 
-iets over admonitions
-
-warning
-tip
-danger
-note
-...
+* warning
+* tip
+* danger
+* note
+* admonition 
+* important
 
 ```{warning}
 Dit is een waarschuwing!
 ```
 
+Of:
+````
+    ```{tip}
+    :class: dropdown
+    Je kunt een dropdown class toevoegen `:class: dropdown`. 
+    ```
+````
+
+resulterend in:
+
 ```{tip}
 :class: dropdown
 Je kunt een dropdown class toevoegen `:class: dropdown`. 
 ```
-
-
-## Exercise
-iets over exercise en solutions
+**Exercise**
+Een speciale admonition is de exercise, deze nummert automatisch. Als je een label toevoegt kun je ook een solution maken die daaraan koppelt:
 
 ````
-    ```{exercise}
-    Hier is een mooie opdracht voor je
+    ```{exercise} Vermenigvuldiging
+    :label: ex_kleine_opdracht
+    Wat is 4x2?
     ```
 ````
 
-resulteert in:
- ```{exercise}
-Hier is een mooie opdracht voor je
+resulterend in:
+ ```{exercise} Vermenigvuldiging
+:label: ex_kleine_opdracht
+Wat is 4x2?
+```
+
+en het antwoord:
+
+````
+    ```{solution} ex_kleine_opdracht
+    :class: dropdown
+    4x2 = 8
+    ```
+````
+
+resulterend in:
+ ```{solution} ex_kleine_opdracht
+:class: dropdown
+4x2 = 8
+```
+
+```{note}
+Om gebruik te maken van exercise moet:
+- In je requirement.txt file staan: sphinx-exercise
+- In je _config file staan:\
+    extra_extensions:\
+        - sphinx_exercise
+
 ```

@@ -8,8 +8,17 @@
 Voor de cursus heb je nu alle noodzakelijk stappen doorlopen. Ga je verder met het ontwikkelen van online boeken, dan is het aan te raden om [github desktop](https://github.com/apps/desktop) te downloaden en bijv. een software programma zoals [VSC](./VSC.md).  
 
 Voor een verdere introductie tot github, bekijk dit filmpje:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iv8rSLsi1xo?si=_DkJP2MBTRLK8fIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center;">
+    <div style="position: relative; width: 70%; height: 0; padding-bottom: 56.25%;">
+            <iframe
+                src="https://www.youtube.com/embed/iv8rSLsi1xo?si=_DkJP2MBTRLK8fIM"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+    </div>
+</div>    
 
 (githubdesktop)=
 ## Github Desktop

@@ -25,6 +25,8 @@ parts:
     chapters:
     - file: JB/JB_intro
     - file: JB/Stappen.md
+    - file: JB/Online_werken.md
+    - file: JB/Lokaal_bouwen.md
     - file: JB/Cheatsheet.md
 
   - caption: IVO
