@@ -37,3 +37,4 @@ parts:
         title: Voorbeeld
       - file: IVO/opdracht1.md
       - file: IVO/opdracht2.md
+      - file: IVO/opdracht3.md
