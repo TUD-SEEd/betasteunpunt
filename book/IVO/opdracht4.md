@@ -21,51 +21,65 @@ De kwaliteit van het Nederlandse oppervlaktewater voldoet nog niet aan de normen
 
 De waterkwaliteit in Nederland wordt gemonitord door meerdere bedrijven en instanties. Evides doet dit ook. Zowel de chemische als de biologische gezondheid van het oppervlaktewater is van belang. Via de link https://waterinfo.rws.nl/#/nav/expert kan je voor bijna elke (chemische) parameter zien wat de staat van de waterkwaliteit in Nederland is.
 
-# Opdracht
+# Opdrachten
 
 Ontwerp een concept dat de waterkwaliteit van het Nederlandse oppervlaktewater verbetert.
-```{exercise} Gegevens verzamelen
+```{exercise} 
 :label: ex_Alfabet
+
+**Gegevens verzamelen**
 
 De eerste stap in het verbeteren van de waterkwaliteit is om te onderzoeken welke richtlijnen gelden vanaf 2027. De opdrachtgever verwacht een infographic waarin de richtlijnen zijn weergegeven.  
 ```
 
-```{exercise} Onderzoeken
+```{exercise} 
 :label: ex_Alfabet
+
+**Onderzoeken**
 
 Onderzoek welke oplossingen al gebruikt worden op verschillende plekken in Nederland om aan de richtlijnen voor de waterkwaliteit te gaan voldoen. 
 Analyseer hierbij ook een rivier naar keuze. Welke bronnen zorgen voor vervuiling?  
 Verwerk de informatie in een overzicht in woord en beeld.
 ```
 
-```{exercise} Programma van Eisen
+```{exercise} 
 :label: ex_Alfabet
+
+**Programma van Eisen**
 
 De opdrachtgever verwacht een PvE voor een waterkwaliteitsverbeterend concept op basis van de gevonden informatie. Het PvE bevat minimaal 8 eisen.
 ```
 
-```{exercise} Ideefase
+```{exercise} 
 :label: ex_Alfabet
+
+**Ideefase**
 
 De opdrachtgever verwacht een brainstorm waarin 30 ideeën worden bedacht waarmee de waterkwaliteit verbeterd kan worden. Deze ideeën kunnen bijvoorbeeld worden weergegeven in conceptuele schetsen, visualisaties, storyboards, morfologische kaart, etc.
 ```
 
-```{exercise} Conceptfase
+```{exercise} 
 :label: ex_Alfabet
+
+**Conceptfase**
 
 Ontwikkel vanuit de ideefase vier concepten om te presenteren aan de opdrachtgever. Hierbij kunnen meerdere ideeën gecombineerd worden binnen de concepten.
 ```
 
 ## Tussenpresentatie
 
-```{exercise} Keuze concept
+```{exercise} 
 :label: ex_Alfabet
+
+**Keuze concept**
 
 Aan de hand van de tussenpresentatie wordt één concept uitgekozen om verder uit te werken. Onderbouw de gemaakte keuze, bijvoorbeeld met een PvE-checklist.
 ```
 
-```{exercise} Definitief concept
+```{exercise} 
 :label: ex_Alfabet
+
+**Definitief concept**
 
 Werk het gekozen concept uit in een presentatiewaardige vorm naar keuze die passend is voor het concept.
 ```

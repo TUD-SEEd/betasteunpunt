@@ -9,8 +9,9 @@ Vergelijking {eq}`eq:Afstand` geeft de afstand van een airbnb tot aan het centru
 
 ### Correlatie
 
-```{Note} Theorie A: Spreidingsgrafiek
+```{admonition} Theorie A: Spreidingsgrafiek
 Door een spreidingsgrafiek te maken van de prijs en de afstand kunnen we zien of er een verband tussen deze variabelen is. 
+
 Een spreidingsgrafiek kun je google sheets maken door de kolommen van afstand en prijs te selecteren en daarna naar diagram te gaan en te klikken op spreidingsgrafiek.
 ```
 
