@@ -38,10 +38,17 @@
 
 ## Vergelijkingen
 
-tekst.
+Voor de betavakken zijn wiskundige vergelijkingen essentieel. Ook in JB's kun je vergelijkingen opnemen. Wat in LaTeX kan, kan in JB ook, bijv:
+
+$$ F_{res} = m \cdot a$$ (eq:Newton)
+
+Waarbij gelabelde vergelijkingen, zoals {eq}`eq:Newton` naar verwezen kan worden. 
 
 `$$ Vergelijking $$`
 
+Maar je kunt ook inline vergelijkingen opnemen zoals deze: $s=v_{gem}t$. Daarbij gebruik je een enkele dollar teken voor en na je `$ Vergelijking $`
+
+**Machten**
 `^ tot de macht`
 Bijv:
 `e^{2x}`
@@ -56,6 +63,16 @@ bijv.
 geeft:
 
 $$\frac{2}{3}$$
+
+**Symbolen**
+|||
+|---|---|
+|`\sqrt`|$\sqrt$|
+
+
+Uitgebreider: https://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+## Tabellen
 
 
 ## Referenties
@@ -72,7 +89,17 @@ danger
 note
 ...
 
-## exercise
+```{warning}
+Dit is een waarschuwing!
+```
+
+```{tip}
+:class: dropdown
+Je kunt een dropdown class toevoegen `:class: dropdown`. 
+```
+
+
+## Exercise
 iets over exercise en solutions
 
 ````
