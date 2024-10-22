@@ -16,26 +16,29 @@ Machten van 10 tel je ook niet mee.
 ```{exercise}
 :label: aantal_sign
 Uit hoeveel significante cijfers bestaan de volgende meetwaarden?
-a. 0,02300\
-b. 120,0\
+
+a. $0,02300$\
+b. $120,0$\
 c. $73,5 \cdot 10^4$\
-d. 1,2\
-e. 4050\
-f. 0,30\
-g. 16,090\
+d. $1,2$\
+e. $4050$\
+f. $0,30$\
+g. $16,090$\
 h. $3,70 \cdot 10^2$\
-i. 0,00604\
-j. 75000\
-k. 0,0001\
+i. $0,00604$\
+j. $75000$\
+k. $0,0001$\
 ```
 
 ```{exercise}
 :label: berekening
 
 Geef de uitkomst van de volgende berekeningen in het juiste aantal significante cijfers.
+
 a. $\frac{51,2}{19,00}$\
 b. $\frac{9,81}{0,012}$\
 c. $\frac{17\cdot10^{-19}x0,725}{1,2\cdot10^{-6}}$\
-d. $8,5^2$\
+d. $8,5^2$
+```
 
 
