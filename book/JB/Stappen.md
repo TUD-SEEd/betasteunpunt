@@ -3,7 +3,7 @@
 We gaan er vanuit dat je een [Github](../Software/Github.md) account hebt (aangemaakt) en dat je [Github Desktop](https://desktop.github.com/download/) hebt geïnstalleerd.
 
 ## Maken van eigen template boek
-Volg de volgende stappen uit deze animatie, hieronder stapgewijs uitgewerkt:
+Volg de volgende stappen uit deze animatie, hieronder stapsgewijs uitgewerkt:
 ``` {figure} ../figures/teachbooks-template.gif
 ```
 
@@ -28,11 +28,17 @@ Volg de volgende stappen uit deze animatie, hieronder stapgewijs uitgewerkt:
 Clicking on the button will display the following screen. Click on Open with GitHub Desktop.
 
 ``` {figure} ../figures/gitdesktop2.png
+---
+width: 50%
+---
 ```
 
 4. Klik vervolgens op URL, plak de gekopieerde link van de repository en specificeer waar de map naartoe gekloond moet worden. 
 
 ``` {figure} ../figures/gitdesktop3.png
+---
+width: 50%
+---
 ```
 
 De bestanden worden nu gekopieerd en je hebt een lokale kopie van de repository.

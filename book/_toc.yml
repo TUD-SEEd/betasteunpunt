@@ -35,3 +35,4 @@ parts:
         title: Basic
       - file: IVO/voorbeeld
         title: Voorbeeld
+      - file: IVO/opdracht1.md
