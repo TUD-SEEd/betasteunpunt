@@ -25,6 +25,7 @@ parts:
     chapters:
     - file: JB/JB_intro
     - file: JB/Stappen.md
+    - file: JB/Cheatsheet.md
 
   - caption: IVO
     numbered: true
