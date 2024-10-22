@@ -1,7 +1,7 @@
 # Werkblad H1.4
 
 ## Opdracht 1
-Glazenwasserij De Schone Scherf kan ingehuurd worden om ramen schoon te maken. Het bedrijf rekent voorrijkosten en een bedrag per uur. In de onderstaande tabel zijn de kosten te zien afhankelijk van het aantal uren. Hierin is x het aantal uur en y het bedrag dat betaald moet worden. Gebruik de volgende algemene formule:
+Glazenwasserij De Schone Scherf kan ingehuurd worden om ramen schoon te maken. Het bedrijf rekent voorrijkosten en een bedrag per uur. In de onderstaande tabel zijn de kosten te zien afhankelijk van het aantal uren. Hierin is $x$ het aantal uur en $y$ het bedrag dat betaald moet worden. Gebruik de volgende algemene formule:
 
 $$ y = a\cdot x + b$$ (eq:LineaireFormule)
 

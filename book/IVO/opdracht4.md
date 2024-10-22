@@ -24,7 +24,7 @@ De waterkwaliteit in Nederland wordt gemonitord door meerdere bedrijven en insta
 # Opdracht
 
 Ontwerp een concept dat de waterkwaliteit van het Nederlandse oppervlaktewater verbetert.
-```{Gegevens verzamelen} 
+```{exercise} Gegevens verzamelen
 :label: ex_Alfabet
 
 De eerste stap in het verbeteren van de waterkwaliteit is om te onderzoeken welke richtlijnen gelden vanaf 2027. De opdrachtgever verwacht een infographic waarin de richtlijnen zijn weergegeven.  
