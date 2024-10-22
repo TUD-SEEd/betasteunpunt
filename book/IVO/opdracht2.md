@@ -32,13 +32,13 @@ Verbind de volgende woorden.
 Aanrijkosten      ◦           ◦    Hellingsgetal
 Kosten per uur    ◦           ◦    Startgetal
 
-###Vraag b
+### Vraag b
 Welk startgetal hoort bij de tabel?
 
-###Vraag c
+### Vraag c
 Welk hellingsgetal hoort bij de tabel?
 
-###Vraag d
+### Vraag d
 Wat is de bijbehorende formule?
 
 
