@@ -2,7 +2,7 @@
 Hier een aantal standaard codes als referentie.
 
 ## Headings
-Onderscheid in titels voor chapters `# Chapter`, secties `## Section` en subsecties`### Subsection`.
+Onderscheid in titels voor chapters `# Chapter`, secties `## Section` en subsecties`### Subsection`. Je kunt deze delen van een label `(sec-YT)= ## YT video` voorzien en er naar verwijzen, zoals naar het interessant deel over [Youtube Videos.](sec-YT)
 
 ## Figuren
 Aanmaken van een figuur, met label (name)
@@ -17,7 +17,7 @@ Aanmaken van een figuur, met label (name)
     <Figure caption>
     ```
 ````
-
+(sec-YT)=
 ## YT Video
 Gebruik bij het embedden van YT video de insluitingslink van YT.
 
