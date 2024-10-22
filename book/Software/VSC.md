@@ -1,8 +1,8 @@
 # VSC
 
-Visual Studio Code (VSC) is een populaire code-editor ontwikkeld door Microsoft. Het biedt ondersteuning voor meerdere programmeertalen en heeft uitgebreide functionaliteiten zoals debugging, versiebeheer (werkt goed samen met bijv. github) en extensies.
+Visual Studio Code (VSC) is een populaire code-editor ontwikkeld door Microsoft. Het biedt ondersteuning voor meerdere programmeertalen en heeft uitgebreide functionaliteiten zoals debugging, versiebeheer (werkt goed samen met bijv. [github](./Github.md)) en extensies.
 
-``` {figure} ../figures/VSC_ps.png
+``` {figure} ../figures/VSC_ps.PNG
 ---
 name: VSV_ps
 width: 70%
@@ -10,8 +10,8 @@ width: 70%
 VSC voor het maken van je boek, geheel links het menu, daarnaast de folders met de bestanden. Centraal de opmaaktaal en rechts een preview van boek.
 ```
 
-## Extenties
-Een aantal extenties zijn handig / nodig voor programmeren in Python en/of het maken van een Jupyter Boek.
+## Extensies
+Een aantal extensies zijn handig / nodig voor programmeren in Python en/of het maken van een Jupyter Boek.
 - [MyST-Markdown](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) - adds support for MyST markdown, including previews.
 - [Spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code and text
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - for obvious reasons. Also includes Jupyter Notebook rendering.

@@ -5,7 +5,7 @@
 * Ga naar [GitHub](http://github.com)
 * Maak een account aan
 
-Voor de cursus heb je nu alle noodzakelijk stappen doorlopen. Ga je verder met het ontwikkelen van online boeken, dan is het aan te raden om [github desktop](https://github.com/apps/desktop) te downloaden en bijv. een software programma zoals [VSC](https://code.visualstudio.com/).  
+Voor de cursus heb je nu alle noodzakelijk stappen doorlopen. Ga je verder met het ontwikkelen van online boeken, dan is het aan te raden om [github desktop](https://github.com/apps/desktop) te downloaden en bijv. een software programma zoals [VSC](./VSC.md).  
 
 Voor een verdere introductie tot github, bekijk dit filmpje:
 
@@ -13,3 +13,12 @@ Voor een verdere introductie tot github, bekijk dit filmpje:
 
 (githubdesktop)=
 ## Github Desktop
+GitHub Desktop is een grafische gebruikersinterface (GUI) om (eenvoudiger) te werken met GitHub. Om de GUI te installeren en in te stellen:
+
+* Download het [installatieprogramma](https://github.com/apps/desktop) en installeer het met de standaardinstellingen. Als het de eerste keer niet werkt, probeer het installatieprogramma dan opnieuw uit te voeren.
+* Wanneer je de GUI voor het eerst opent, word je gevraagd om je aan te melden bij je GitHub-account. Voer je gegevens in.
+* Dat is alles, u bent nu klaar om de GUI te gebruiken!
+
+```{note}
+Werk je met TUD Gitlab, dan is een net andere aanpak nodig, zie de [beschrijving van de collega's](https://mude.citg.tudelft.nl/2023/software/git_install/).
+```
