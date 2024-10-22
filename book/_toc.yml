@@ -29,3 +29,4 @@ parts:
       sections:
       - file: IVO/basic    
         title: Basic
+      - file: IVO/voorbeeld
