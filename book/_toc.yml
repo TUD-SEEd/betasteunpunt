@@ -30,3 +30,4 @@ parts:
       - file: IVO/basic    
         title: Basic
       - file: IVO/voorbeeld
+        title: Voorbeeld

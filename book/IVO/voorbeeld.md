@@ -27,7 +27,7 @@ g. $16,090$\
 h. $3,70 \cdot 10^2$\
 i. $0,00604$\
 j. $75000$\
-k. $0,0001$\
+k. $0,0001$
 ```
 
 ```{exercise}
@@ -37,7 +37,7 @@ Geef de uitkomst van de volgende berekeningen in het juiste aantal significante 
 
 a. $\frac{51,2}{19,00}$\
 b. $\frac{9,81}{0,012}$\
-c. $\frac{17\cdot10^{-19}x0,725}{1,2\cdot10^{-6}}$\
+c. $\frac{17\cdot10^{-19}0,725}{1,2\cdot10^{-6}}$\
 d. $8,5^2$
 ```
 
