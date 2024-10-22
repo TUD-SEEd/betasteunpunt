@@ -17,25 +17,8 @@ Gevraagd:
 3. Is deze formule geschikt om te berekenen hoe lang het duurt tot Medio uit het bloed verdwenen is?
 
 **Uitwerkingen**
-```{figure} https://teachbooks.github.io/Showing-Physics/main/_images/FP.JPG
-1.
-
-
-
-
-```
 
 ```{figure} https://teachbooks.github.io/Showing-Physics/main/_images/FP.JPG
-2.
-
-
-
 
 ```
- ```{figure} https://teachbooks.github.io/Showing-Physics/main/_images/FP.JPG
-3.
 
-
-
-
-```

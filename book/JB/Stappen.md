@@ -18,7 +18,8 @@ Volg de volgende stappen uit deze animatie, hieronder stapsgewijs uitgewerkt:
 
 ## Boek lokaal opslaan
 1. Open de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
-``` {figure} ../figures/gitdesktop1.png
+
+``` {figure} ./figures/gitdesktop1.png
 ```
 
 2. Kopieer de link en open Github Desktop.
@@ -27,7 +28,7 @@ Volg de volgende stappen uit deze animatie, hieronder stapsgewijs uitgewerkt:
 
 Clicking on the button will display the following screen. Click on Open with GitHub Desktop.
 
-``` {figure} ../figures/gitdesktop2.png
+``` {figure} ./figures/gitdesktop2.png
 ---
 width: 50%
 ---
@@ -35,7 +36,7 @@ width: 50%
 
 4. Klik vervolgens op URL, plak de gekopieerde link van de repository en specificeer waar de map naartoe gekloond moet worden. 
 
-``` {figure} ../figures/gitdesktop3.png
+``` {figure} ./figures/gitdesktop3.png
 ---
 width: 50%
 ---

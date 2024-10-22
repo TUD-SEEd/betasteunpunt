@@ -11,7 +11,7 @@ Vergelijking {eq}`eq:LineaireFormule` kennen jullie en gaan wij deze les gebruik
 ---
 width: 80%
 figclass: margin
-name: fig_zijbalk
+name: fig_zbalk
 ---
 Glassenwasser
 ```

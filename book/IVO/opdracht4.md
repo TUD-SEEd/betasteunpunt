@@ -3,14 +3,13 @@
 ## De opdrachtgever
 Evides, vertegenwoordigd door David Moed en Marthe de Graaff.
 
-Evides Waterbedrijf is één van de grootste waterbedrijven in Nederland. Jaarlijks levert Evides ongeveer 158 miljoen m3
- drinkwater aan 2,5 miljoen consumenten en bedrijven in Zuid-Holland, Zeeland en Brabant. Evides Industriewater levert daarnaast betrouwbare en duurzame wateroplossingen op maat voor de industrie. Hieronder valt ook het zuiveren van industrieel afvalwater.
+Evides Waterbedrijf is één van de grootste waterbedrijven in Nederland. Jaarlijks levert Evides ongeveer 158 miljoen m^3 drinkwater aan 2,5 miljoen consumenten en bedrijven in Zuid-Holland, Zeeland en Brabant. Evides Industriewater levert daarnaast betrouwbare en duurzame wateroplossingen op maat voor de industrie. Hieronder valt ook het zuiveren van industrieel afvalwater.
 
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Evides_NV_%E2%80%93_Logo.png/1920px-Evides_NV_%E2%80%93_Logo.png
 ---
 width: 80%
 figclass: margin
-name: fig_zijbalk
+name: fig_zi
 ---
 Opdrachtgever Evides
 ```
@@ -25,7 +24,6 @@ De waterkwaliteit in Nederland wordt gemonitord door meerdere bedrijven en insta
 
 Ontwerp een concept dat de waterkwaliteit van het Nederlandse oppervlaktewater verbetert.
 ```{exercise} 
-:label: ex_Alfabet
 
 **Gegevens verzamelen**
 
@@ -33,7 +31,6 @@ De eerste stap in het verbeteren van de waterkwaliteit is om te onderzoeken welk
 ```
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Onderzoeken**
 
@@ -43,7 +40,6 @@ Verwerk de informatie in een overzicht in woord en beeld.
 ```
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Programma van Eisen**
 
@@ -51,7 +47,6 @@ De opdrachtgever verwacht een PvE voor een waterkwaliteitsverbeterend concept op
 ```
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Ideefase**
 
@@ -59,7 +54,6 @@ De opdrachtgever verwacht een brainstorm waarin 30 ideeën worden bedacht waarme
 ```
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Conceptfase**
 
@@ -69,7 +63,6 @@ Ontwikkel vanuit de ideefase vier concepten om te presenteren aan de opdrachtgev
 ## Tussenpresentatie
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Keuze concept**
 
@@ -77,7 +70,6 @@ Aan de hand van de tussenpresentatie wordt één concept uitgekozen om verder ui
 ```
 
 ```{exercise} 
-:label: ex_Alfabet
 
 **Definitief concept**
 

@@ -30,7 +30,7 @@ name: oplossingdonow
 ```
 
 ### Uitleg
-Wil je verdere uitleg, mij nie appen. Vraag het menno!
+Wil je verdere uitleg, mij nie appen. Vraag het Menno!
   <iframe
     width="560"   
     height="315"
