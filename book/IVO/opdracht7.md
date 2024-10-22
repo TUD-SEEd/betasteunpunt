@@ -2,7 +2,7 @@
 
 Voor we met de klas een ruimtewandeling kunnen maken vanuit het ISS (International Space Station) moeten we wel eerst zorgen dat dat veilig kan. Daarom gaan we deze les een ruimtepak ontwerpen om ons te beschermen tegen de straling van de zon.
 
-```{figure} spacesuit-history
+```{figure} spacesuit-history.jpg
 ---
 width: 70%
 align: center
@@ -16,7 +16,7 @@ Hiervoor moeten we een aantal vragen beantwoorden:
 3.	Hoeveel straling moet ons ruimtepak tegenhouden om te voldoen aan deze norm?
 4.	Waarvan gaan we ons ruimtepak maken en hoeveel materiaal hebben we nodig? 
 
-## 1.	Verwachte hoeveelheid straling
+## Verwachte hoeveelheid straling
 
 Om te bepalen hoe ons ontwerp er uit moet gaan zien, willen we eerst weten met welke omstandigheden we te maken gaan krijgen. Hier op aarde zijn we beschermd tegen het grootste deel van de straling die de zon uitzendt, omdat deze wordt tegengehouden door onze atmosfeer en het magnetische veld van de aarde. Boven in het ISS hebben we deze bescherming niet. Deze moeten we dus zelf voorzien. 
 Je mag ervan uitgaan dat in de raket en in het ruimtestation de wanden van deze ruimtevaartuigen je volledig beschermen tegen de straling van de zon, maar tijdens de ruimtewandeling heb je deze bescherming niet. Aan hoeveel straling word je dan blootgesteld?
@@ -26,7 +26,7 @@ A.	Je mag er van uit gaan dat slechts 0,005% van deze straling ioniserend is. Wa
 
 Om te bepalen aan hoeveel ioniserende straling je dan wordt blootgesteld moeten we weten wat de oppervlakte van je lichaam is. Hiervoor gebruiken we de Du Bois formule met je lengte in cm en je gewicht in kg:
 
-$$ Opp. Lichaam = 0.007184 * Lengte^(0,725) * Gewicht^(0,425) $$
+$$ Opp. Lichaam = 0.007184 * Lengte^{0,725} * Gewicht^{0,425} $$
 
 B.	Bereken je lichaamsoppervlakte en hoeveel Watt aan straling je dan kan verwachten (gemiddelde of kies één van de groepsgenoten).
 
@@ -34,7 +34,7 @@ Onze ruimtewandeling duurt maar 5 minuten, maar voor de veiligheid gaan we ervan
 
 C.	Aan hoeveel Joule stralingsenergie word je dan blootgesteld?
 
-## 2.	Wettelijk maximum
+## Wettelijk maximum
 
 Nu weet je waarschijnlijk niet of dit een gevaarlijke hoeveelheid straling is of niet. Hiervoor heb je een bepaalde voorkennis nodig:
 
@@ -45,13 +45,13 @@ D.	Lees paragraaf 5.5 over stralingsbelasting
 E.	Bereken de Dosis en de Equivalente dosis die je ontvangt als je geen bescherming zou dragen tijdens deze ruimtewandeling. Je mag ervan uitgaan dat de straling voornamelijk γ- en röntgenstraling straling is.
 
 
-## 3.	Hoeveel moeten we tegenhouden?
+## Hoeveel moeten we tegenhouden?
 
 Als je goed gerekend hebt zie je waarschijnlijk dat je over te toegelaten equivalente dosis zit. Er moet dus straling tegengehouden worden.
 
 F.	Bereken hoeveel procent van de straling tegengehouden moet worden om te voldoen aan de veiligheidsnorm.
 
-## 4.	Het Ontwerp
+## Het Ontwerp
 
 Nu jullie weten aan welke eisen je ontwerp moet voldoen, kunnen jullie beginnen met ontwerpen.
 
@@ -63,7 +63,7 @@ Nu je weet wat de minimale dikte is van je hoofdmateriaal kan het ontwerpen begi
 
 I.	Maak op een A3 papier een concept schets van hoe jullie willen dat je ruimtepak eruit gaat zien. Wat moet je allemaal kunnen met je pak? Welke gadgets beschikt je pak over? Hoe ga je bewegen in je pak? 
 
-## 5.	Extra
+## Extra
 
 Nu jullie een eerste concept van je ruimtepak hebben gemaakt zijn er waarschijnlijk al verbeteringen die jullie bedacht hebben.
 

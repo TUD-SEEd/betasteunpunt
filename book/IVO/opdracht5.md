@@ -21,7 +21,7 @@ Floor trekt je met 120 N naar links, Xaleyna trekt je met 120 N naar rechts. Wat
 :label: sol_Krachtenop
 :class: dropdown
 
-$$ Fres = F{sub}`Floor` + F{sub}`Xaleyna`$$ (eq:Fres) = 120 - 120 = 0 N
+$$ Fres = F_{Floor} + F{Xaleyna} = 120 - 120 = 0 N $$
 ```
 ```{exercise}
 :label: Krachtenop2
@@ -33,13 +33,18 @@ Floor trekt je met 120 N naar links en Xaleyna trekt je ook met 120 N naar links
 :label: sol_Krachtenop2
 :class: dropdown
 
-$$ Fres = F{sub}`Floor` + F{sub}`Xaleyna`$$ (eq:Fres2) = 120 + 120 = 240 N
+$$ Fres = F_{Floor} + F{Xaleyna} = 120 + 120 = 240 N$$
 ```
 
 ## Krachten onder een hoek
 Meestal werken krachten niet allemaal langs een lijn, maar hebben ze een onderlinge hoek. Hiervoor kan je de kop-staart of de parallellogram methode gebruiken. Hieronder zie je stap voor stap hoe je dit kan doen voor beide methodes.
 
-:::{iframe} https://www.youtube.com/watch?v=WV9SQ0syScY
-:width: 100%
-Kop-staart methode
-:::
+  <iframe
+    width="560"   
+    height="315"
+    src="https://www.youtube.com/embed/WV9SQ0syScY?si=yHRPgHBzAyofMVSC"
+    align="center"
+    frameborder="0"
+    allowfullscreen
+    ></iframe>
+
