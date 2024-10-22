@@ -3,6 +3,7 @@ root: intro.md
 
 parts:
   - caption: Software
+    numbered: true
     chapters:
     - file: Software/Github
     - file: Software/VSC
