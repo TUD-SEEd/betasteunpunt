@@ -8,6 +8,7 @@ parts:
     - file: Software/Github
     - file: Software/VSC
     - file: Software/Anaconda
+    - file: Software/CoLab
 
   - caption: Python
     numbered: true

@@ -10,6 +10,10 @@ width: 70%
 VSC voor het maken van je boek, geheel links het menu, daarnaast de folders met de bestanden. Centraal de opmaaktaal en rechts een preview van boek.
 ```
 
+```{exercise}
+[Download](https://code.visualstudio.com/Download) en installeer VSC.
+```
+
 ## Extensies
 Een aantal extensies zijn handig / nodig voor programmeren in Python en/of het maken van een Jupyter Boek.
 - [MyST-Markdown](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) - adds support for MyST markdown, including previews.
@@ -19,3 +23,12 @@ Een aantal extensies zijn handig / nodig voor programmeren in Python en/of het m
 - [Jupyter Cell Tags](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-jupyter-cell-tags) - Jupyter Cell Tags support
 - [Jupyter]()
 
+````{exercise}
+``` {figure} ../figures/extensions.PNG
+---
+name: fig_extensions
+width: 70%
+---
+Installeer de extensie Jupyter, MyST-Markdown, Python & Code Spell checker.
+```
+````
