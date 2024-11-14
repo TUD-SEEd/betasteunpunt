@@ -17,7 +17,7 @@ parts:
     - file: Python/Programma
     - file: Python/Python dag 1
     - file: Python/Python dag 2
-  #   - file: Python/Python dag 3
+    - file: Python/Python dag 3
   #   - file: Python/Python dag 4
   #   - file: Python/Python dag 5
 
