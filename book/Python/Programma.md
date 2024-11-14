@@ -1,9 +1,8 @@
 # Programma
 
-| dag | onderwerp | toelichting |
+| | onderwerp | toelichting |
 |-----|-----------|-------------|
-|  1  | Introductie tot Python | toelichting |
-|  2  | Basics | toelichting |
-|  3  | Python met TI | toelichting |
-|  4  | Data-analyse | toelichting |
-|  5  | Pico Python | toelichting |
+|  1  | [Introductie tot Python](Python%20dag%201.ipynb) | variabelen, types, numpy, plotten  |
+|  2  | [Basics](./Python%20dag%202.ipynb) | functies, loops, conditionals, ... |
+|  3  | [Data-analyse]() | ... |
+|  4  | [Pico Python]() | .. |

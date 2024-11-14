@@ -1,4 +1,4 @@
 (intro)=
-# Nascholingsactiviteiten
+# Python, Jupyter Notebooks & Jupyter Books
 
-Hier komen de nascholingsactiviteiten georganiseerd door Freek.
+Hier staat het basiscursusmateriaal om te leren werken met Python, Jupyter Notebooks en Jupyter Books.

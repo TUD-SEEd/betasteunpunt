@@ -17,33 +17,33 @@ parts:
     - file: Python/Programma
     - file: Python/Python dag 1
     - file: Python/Python dag 2
-    - file: Python/Python dag 3
-    - file: Python/Python dag 4
-    - file: Python/Python dag 5
+  #   - file: Python/Python dag 3
+  #   - file: Python/Python dag 4
+  #   - file: Python/Python dag 5
 
-  - caption: Jupyter Book
-    numbered: true
-    chapters:
-    - file: JB/JB_intro
-    - file: JB/Stappen.md
-    - file: JB/Online_werken.md
-    - file: JB/Lokaal_bouwen.md
-    - file: JB/Cheatsheet.md
+  # - caption: Jupyter Book
+  #   numbered: true
+  #   chapters:
+  #   - file: JB/JB_intro
+  #   - file: JB/Stappen.md
+  #   - file: JB/Online_werken.md
+  #   - file: JB/Lokaal_bouwen.md
+  #   - file: JB/Cheatsheet.md
 
-  - caption: IVO
-    numbered: true
-    chapters:
-    - file: IVO/opdracht
-      sections:
-      - file: IVO/basic    
-        title: Basic
-      - file: IVO/voorbeeld
-        title: Voorbeeld
-      - file: IVO/opdracht1.md
-      - file: IVO/opdracht2.md
-      - file: IVO/opdracht3.md
-      - file: IVO/opdracht4.md
-      - file: IVO/opdracht5.md
-      - file: IVO/opdracht6.md
-      - file: IVO/opdracht7.md
-      - file: IVO/opdracht8.md
+  # - caption: IVO
+  #   numbered: true
+  #   chapters:
+  #   - file: IVO/opdracht
+  #     sections:
+  #     - file: IVO/basic    
+  #       title: Basic
+  #     - file: IVO/voorbeeld
+  #       title: Voorbeeld
+  #     - file: IVO/opdracht1.md
+  #     - file: IVO/opdracht2.md
+  #     - file: IVO/opdracht3.md
+  #     - file: IVO/opdracht4.md
+  #     - file: IVO/opdracht5.md
+  #     - file: IVO/opdracht6.md
+  #     - file: IVO/opdracht7.md
+  #     - file: IVO/opdracht8.md
