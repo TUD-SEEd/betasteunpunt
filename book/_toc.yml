@@ -1,7 +1,12 @@
 format: jb-book
-root: intro.md
+root: start.md
+
 
 parts:
+  - caption:
+    chapters:
+    - file: intro.md
+    
   - caption: Software
     numbered: true
     chapters:
