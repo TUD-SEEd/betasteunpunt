@@ -11,7 +11,8 @@ Als het lichter is, wordt de weerstandswaarde van de LDR kleiner waardoor er min
 
 In welk gebied je sensor gevoelig moet zijn bepaalt de keuze voor een Ohmse weerstand. Zie de tweede grafiek. De LDR heeft een waarde tussen de 10 kΩ en 20 kΩ: dus kies een grote weerstand!
 
-**Opdracht 8 Een lichtsensor**
+
+```{exercise} Een lichtsensor
 
 De schakeling lijkt erg op de schakeling van opdracht 4. Alleen nu gebruiken we een LDR en een ANALOG IN.
 
@@ -41,7 +42,9 @@ f) Breid de schakeling verder uit zodat je de hele schakeling ook met een knop a
 g) Leg met behulp van grafiek 2 uit dat een grote waarde van RΩ ervoor zorgt dat de LDR in het hele bereik vrijwel even gevoelig is.
 
 h) Bedenk een manier om de sensor zelf te laten ijken. Dus laat de sensor zelf de minimale en maximale waarde bepalen.
+```
 
-**Opdracht 9 Reactietijd meten**
+```{exercise} Reactietijd meten
 
 Bouw een reactietijdmeter waarbij iemand zo snel mogelijk op de knop moet drukken als een rode LED uit gaat en een groene LED aangaat. Om dit lastiger te maken voor de persoon die moet drukken kun je gebruik maken van functie `random(a,b)`. Waarbij a en b getallen zijn, zo kan je een willekeurige delay inbouwen. De functie `millis()` geeft aan hoeveel milliseconde ervoor bij zijn gegaan.
+```

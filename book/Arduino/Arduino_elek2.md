@@ -6,9 +6,11 @@ De transistor (hier gebruiken we alleen een zogenaamde NPN-transistor) heeft dri
 
 Bij erg grote stroomsterktes moet je een grotere transistor gebruiken of eentje met een koelelement zodat de transistor z’n warmte kwijt kan.
 
-**Opdracht 14 De snelheid van een elektromotor deel 2**
+```{exercise} De snelheid van een elektromotor deel 2
 
 De schakeling van opdracht 13 is te eenvoudig en het kan goed zijn dat de Arduino te weinig stroom levert. Zeker wanneer je de DC motor snel wilt laten draaien.
 
 a) Bouw de schakeling zoals hiernaast weergegeven.
+
 b) Gebruik het script van opdracht 12 en upload het programma. Kan de elektromotor daadwerkelijk harder draaien?
+```

@@ -75,7 +75,7 @@ Bouw de bijbehorende schakeling en programmeer het script zodanig dat de kluis p
 Als je onderaan de trap staat wil je het licht bovenaan de trap aan zetten. Bovenaan de trap zit nog een lichtknop. Daarmee kan je het licht weer uit of aan zetten. Bouw de schakeling met twee knoppen en schrijf het programma zodat je een werkende  wisselschakeling hebt. Lukt dit niet meteen? Probeer het dan eerst met een enkele knop.
 ```
 
-```{exercise} Een voetgangersoversteekplaats**
+```{exercise} Een voetgangersoversteekplaats
 
 Voor voetgangers is een speciale overgangsplek gemaakt. Deze plek ligt aan een drukke weg. Als er geen voetgangers zijn, staat het verkeerslicht voor de auto’s op groen. Op het moment dat een voetganger over wil steken, drukt deze op de knop. Het verkeerslicht voor de auto’s gaat dan van groen naar geel naar rood. Voetgangers hebben dan 15 seconde om over te steken. Het verkeerslicht voor hen staat op groen! Dan gaat het groene lampje vijf keer knipperen en springt op rood. Een seconde later springt het verkeerslicht voor de auto’s weer op groen.
 

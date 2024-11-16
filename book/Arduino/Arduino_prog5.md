@@ -5,8 +5,13 @@ Voor bijvoorbeeld het maken van spelletjes met Arduino wil je random getallen ge
 
 ## Programmeren met Arrays
 Een serie getallen kun je in een rij (array) zetten. Daarmee kan een stuk code overzichtelijker worden. Een voorbeeld is: 
+
+```{code} C
 int ledgroen[] = {6,7,8,9};
-Deze code kun je gebruiken om 4 ledjes aangesloten op pinnen 6,7,8 en 9 aan te sturen. De code: digitalWrite(ledgroen[0],HIGH); zal de led op pin 6 aan zetten. 
+```
+
+Deze code kun je gebruiken om 4 ledjes aangesloten op pinnen 6,7,8 en 9 aan te sturen. De code: `digitalWrite(ledgroen[0],HIGH);` zal de led op pin 6 aan zetten. 
+
 Je kunt een array ook langer maken in een loop. Wel moet de Arduino de totale lengte van de rij van te voren weten. Een mogelijke start voor je code van Simon says staart hiernaast.
 
 ## Functies programmeren
@@ -24,6 +29,6 @@ Je kunt eenvoudig switchen van menu door bijvoorbeeld een counter te maken. var 
 
 ## Simultaan werken
 De Arduino kan geen twee dingen tegelijkertijd (er is wel een truc genaamd interrupts). Om toch twee dingen tegelijk uit te voeren kun je werken met timers. Daarbij is het belangrijk om geen delay te gebruiken in je script. Deze stopt namelijk het hele proces. In de voorbeeldscripts van Arduino vind je het programma Blinkwithoutdelay waarin het eenvoudige programma Blink is herschreven.
-Bovenaan wordt een tijdsinterval gekozen. Als er een seconde voorbij is moet de LED wisselen van status. Dit wordt gedaan door de tijd op te vragen (millis()) en te vergelijken met de tijd van de vorige keer dat de led gewisseld is van status. Is de voorbije tijd nog niet groter dan het gekozen tijdsinterval wordt de rest van de loop afgedraaid (deze is in dit voorbeeld leeg). 
+Bovenaan wordt een tijdsinterval gekozen. Als er een seconde voorbij is moet de LED wisselen van status. Dit wordt gedaan door de tijd op te vragen (`millis()`) en te vergelijken met de tijd van de vorige keer dat de led gewisseld is van status. Is de voorbije tijd nog niet groter dan het gekozen tijdsinterval wordt de rest van de loop afgedraaid (deze is in dit voorbeeld leeg). 
 Op deze wijze kun je de status van de LED wijzigen en de gehele tijd letten op bijvoorbeeld een drukknop en of deze wordt ingedrukt. 
 Het programma kan ook korter geschreven worden.

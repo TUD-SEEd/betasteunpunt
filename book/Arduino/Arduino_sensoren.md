@@ -81,41 +81,34 @@ Wanneer je een dag weg van huis bent, wil je voor de zekerheid een inbrekersalar
 -	Als er geen beweging of geluid meer gedetecteerd wordt, moet het alarm stoppen
 -	Een lampje moet blijven branden zodat je weet dat iemand een inbraakpoging heeft gedaan.
 Het programma van eisen is opgesteld. Maak een plan om stap voor stap het alarmsysteem te bouwen, te testen en vervolgens uit te breiden. Voer het plan uit. 
-
 ```
 
-```{exercise}
-
+```{exercise} Leerlingteller
 Is iedereen binnen? Je telt. Mist er één, telt nog een keer. En ja, je hebt er ergens een gemist. Is het niet handiger om aan je Arduino aan te geven hoeveel leerlingen je verwacht en dat de Arduino dan bijhoudt hoeveel leerlingen je lokaal binnen komen lopen? 
 Voor het bijhouden van het aantal leerlingen dat binnenkomt kun je een afstandssensor gebruiken, een laser gericht op een ldr (tip: plaats een rietje over de ldr zodat alleen het laserlicht opgevangen wordt, of een bewegingssensor. Let bij het programmeren op dat een code als 0101 twee leerlingen zijn, maar 01110 maar een leerling!
-
 ```
 
-```{exercise}
+```{exercise} Parkeersensor
 Een parkeersensor begint te piepen wanneer de afstand kleiner wordt dan 50 cm. Daarna zal de piep hoger worden of volgen de piepjes elkaar sneller op. Bij minder dan 7 cm moet de piep aanhoudend zijn.
-
 ```
 
-```{exercise}
+```{exercise} 
 In de winkel kun je nu lampen kopen die je aan en uit kunt zetten met een app op je telefoon. Die lampen zijn vaak wel duur. Gelukkig kunnen we dat ook prima zelf maken met de Arduino en een bluetooth module. Maak een lamp die je aan en uit zet met je telefoon. Breid de code uit zodat je ook de helderheid van de lamp kunt instellen met je telefoon. Start eenvoudig door te praten met je Arduino m.b.v. de seriële monitor.
-
 ```
 
 ```{exercise} Simon Says
 Het spelletje Simon Says lijkt op het spelletje ik ga op reis en ik neem mee… Bij Simon Says gaan vier verschillende ledjes in een bepaalde volgorde knipperen (1234). Dezelfde volgorde moet ingedrukt worden met behulp van vier drukknoppen. Als de juiste volgorde is ingedrukt, wordt de serie verder uitgebreid (12343). Het spel gaat net zo lang door totdat de speler de foute volgorde indrukt. Het is natuurlijk het leukst wanneer de volgorde nooit hetzelfde is en dat de Arduino de volgorde voor je bepaalt.
-Maak het spel!
 
+Maak het spel!
 ```
 
 ```{exercise} Robotica
 Veel scholen willen aan de slag met Robotica. De Arduino geeft de mogelijkheid om dit relatief goedkoop en snel te doen. Er zijn kant en klare auto’s te koop voor ongeveer €100,- maar als je de onderdelen los besteld, dan heb je de auto zelf in elkaar gezet voor ongeveer €30,-. 
 We beginnen met het laten rijden van de Arduino op verschillende snelheden. Dit kun je later zelf uitbreiden door een afstandssensor te gebruiken die er voor zorgt dat de auto niet tegen een muur botst en een bluetoothmodule waarmee je de auto kunt aansturen vanaf je telefoon. Lees ook het stukje over functies programmeren! Dat is bij robotica erg handig.
-
 ```
 
 ```{exercise} Een thermometerdisplay 
 Systemen die de temperatuur, luchtvochtigheid en druk kunnen geven kunnen gekocht worden in de winkel. Je kunt ze ook zelf maken. En met een kleine uitbreiding van de spullen die je al hebt, kun je dit maken. Wanneer je er een mooi kastje om heen bouwt heb je je eigen weerstation gemaakt. Begin in deze opdracht met de temperatuur te tonen op een lcd display. Breid deze uit met een knop waarmee je bijvoorbeeld de hoeveelheid licht meet en deze toont op het display.
-
 ```
 
 ```{exercise}Een digitale meetlint
