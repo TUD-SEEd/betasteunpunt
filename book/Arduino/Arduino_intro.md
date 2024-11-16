@@ -17,7 +17,7 @@ Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in
 ```
 
 
-```{exercise} Het aansluiten van een LED**
+```{exercise} Het aansluiten van een LED
 
 Een LED is een diode die licht uitzendt als er stroom door de LED gaat. De LED laat stroom maar door in één richting. De lange poot van de LED moet altijd op de + kant aangesloten worden, de korte poot op de – kant, zie onderstaand figuur.
 

@@ -17,14 +17,16 @@ Een functie die ook handig is, is de functie ++. Elke keer als de loop de volgen
 
 Als ++ bestaat, dan zal -- ook wel bestaan. En dat klopt. -- zorgt ervoor dat de waarde met 1 wordt verlaagd. Beide codes kunnen in een for-loop geplaatst worden. Dit is een loop binnen de loop. Kijk eens naar het voorbeeld waarbij er een soort aftel mechanisme in zit voordat het programma zelf begint… (let op, de variabele i moet je nog wel even declareren voor de setup!
 
-**Opdracht 10 Sneller programmeren**
 
+```{exercise}
 Herschrijf opdracht 2h met de functie ++.
+```
 
-**Opdracht 11 Alarmschakelaar**
+```{exercise} Alarmschakelaar
 Onder de kassa van een winkel zit een schakelaar (drukknop), als deze wordt ingedrukt dan moet er een pulserend alarmbel (ditmaal nog een LED) gaan. Maak dit systeem.
+```
 
-**Opdracht 12 Een RGB LED**
+```{exercise} Een RGB LED
 Een RGB LED heeft vier pootjes. In de LED zitten eigenlijk drie LED’s verwerkt. Door de drie LED’s met behulp van een PWM (~) aan te sturen kun je kleuren mengen en zo tussenliggende kleuren krijgen. Nu kunnen we via de software de sterkte van elke kleur bepalen, maar het zou leuk zijn wanneer we ook handmatig de kleuren kunnen instellen. We gebruiken hiervoor variabele weerstanden ook wel potmeters genaamd.
 
 De potmeter heeft drie poten. Eentje voor de 5,0 V in, eentje voor de aarde (0,0 V) en een poot voor het uitlezen van de meter met behulp van een analoge pin, zie ook de figuur hiernaast.
@@ -36,8 +38,9 @@ a) Bouw de schakeling.
 b) Schrijf de bijbehorende code waarbij je eerst de waarde van de potmeter uitleest en vervolgens de RGB LED aanstuurt.
 
 c) Probeer de verschillende standen van de RGB Led en controleer of het plaatje hieronder goed overeenkomt met de kleuren van de LED.
+```
 
-**Opdracht 13 De snelheid van een elektromotor**
+```{exercise} De snelheid van een elektromotor
 Een elektromotor zorgt ervoor dat van elektrische energie bewegingsenergie gemaakt wordt. Een elektromotor vind je in alle apparaten die bewegen en werken op elektriciteit. De snelheid van een elektromotor is afhankelijk van de spanning over de motor. We werken in deze les dus met de PWM pin (~). We kunnen natuurlijk direct de snelheid van de elektromotor in ons script zetten, maar het zou handiger zijn wanneer we de snelheid van de elektromotor kunnen aanpassen, bijvoorbeeld met behulp van een draaiknop. We gaan gebruik maken van een variabele weerstand, ook wel een potmeter genoemd.
 
 a) Bouw de rechterzijde van de schakeling met de potmeter. De elektromotor hoef je nog niet aan te sluiten.
@@ -47,3 +50,4 @@ b) Leg uit waarom de signal out van de potmeter naar een ANALOG IN moet.
 c) Leg uit waarom de diode is opgenomen in de schakeling.
 
 d) Programmeer het bijbehorende script zodat de snelheid van draaien van de elektromotor ingesteld kan worden met behulp van de potmeter. Gebruik daarbij de map functie.
+```

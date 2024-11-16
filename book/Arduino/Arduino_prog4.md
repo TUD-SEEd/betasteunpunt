@@ -6,10 +6,12 @@ Eerst wordt het script uit de bibliotheek opgehaald. Daarna noemen we de servo m
 
 Met mijnServo.attach(9) zeggen we dat de servo verbonden is met pin 9. Uiteraard is dit weer een PWM poort. Nu is het mogelijk de servo te sturen. Waarbij pos staat voor de positie, die kan tussen 0 en 180 zitten. De code voor het sturen van deze servo wordt dan: mijnServo.write(pos); Een servo motor kan niet helemaal rond draaien zoals een gewone elektromotor maar we kunnen wel heel goed richten met een servomotor. Dit komt omdat er in de Servo een potmeter zit, de sturing gaat dus via het uitlezen van de spanning!
 
-**Opdracht 15 Een lichtwijzer**
-Gebruik opdracht 8 als basis. Vervang daarin de LED door de servo motor. Je kunt op de servo een wijzer plakken en een schaalverdeling maken zodat de wijzer aangeeft hoe licht/donker het is. 
 
-**Opdracht 16 Zo veel mogelijk zonlicht**
+```{exercise} Een lichtwijzer**
+Gebruik opdracht 8 als basis. Vervang daarin de LED door de servo motor. Je kunt op de servo een wijzer plakken en een schaalverdeling maken zodat de wijzer aangeeft hoe licht/donker het is. 
+```
+
+```{exercise} Zo veel mogelijk zonlicht**
 
 Zonnepanelen worden neer gezet om stralingsenergie, afkomstig van de zon zon, om te zetten in elektrische energie. De panelen vangen het meeste licht op als ze loodrecht op de zon staan. De aarde draait en we zouden de panelen mee moeten laten draaien om zoveel mogelijk energie op te vangen. Dat gaan we in deze opdracht doen.
 
@@ -25,3 +27,4 @@ c) Schrijf nu het stukje code voor de servo. Laat de servo naar links draaien al
 
 d) Leg uit dat al aardig in de buurt komt van het draaien van de zonnepanelen.
 
+```
