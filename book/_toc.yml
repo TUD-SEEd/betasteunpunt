@@ -14,6 +14,13 @@ parts:
     - file: Software/VSC
     - file: Software/Anaconda
     - file: Software/CoLab
+  
+  - caption: Arduino
+    numbered: true
+    chapters:
+    - file: Arduino/Arduino_intro
+    - file: Arduino/Arduino_basics
+    - file: Arduino/Arduino_prog1
 
   - caption: Python
     numbered: true
