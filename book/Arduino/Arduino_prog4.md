@@ -24,3 +24,4 @@ b) Zet de flitser van je telefoon aan en lees met behulp van Serial.println(LDR1
 c) Schrijf nu het stukje code voor de servo. Laat de servo naar links draaien als LDR1 meer licht ontvangt dan LDR2 en andersom. Denk eraan dat de servo gebruik maakt van een  potmeter en je dus ook gebruik kan maken van de map functie.
 
 d) Leg uit dat al aardig in de buurt komt van het draaien van de zonnepanelen.
+

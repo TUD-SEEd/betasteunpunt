@@ -27,6 +27,9 @@ parts:
     - file: Arduino/Arduino_elek2
     - file: Arduino/Arduino_prog4
     - file: Arduino/Arduino_cheatsheet
+    - file: Arduino/Arduino_sensoren
+    - file: Arduino/Arduino_prog5
+    - file: Arduino/Arduino_scripts
 
   - caption: Python
     numbered: true
