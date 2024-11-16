@@ -19,7 +19,6 @@ parts:
     numbered: true
     chapters:
     - file: Arduino/Arduino_intro
-    - file: Arduino/Arduino_basics
     - file: Arduino/Arduino_prog1
     - file: Arduino/Arduino_prog2
     - file: Arduino/Arduino_elek1
