@@ -5,7 +5,7 @@ Leuk dat je aan de slag gaat met Arduino! Wellicht heb je nog geen idee wat een 
 In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino. Bij het werken met een Arduino heb je twee belangrijke onderdelen: De Arduino en een breadboard. De Arduino is de computer, met invoer en uitvoer mogelijkheden. Op het breadboard sluit je de elektronica aan die aangestuurd wordt door de Arduino.
 
 ## Arduino
-HIER EEN TEKST OVER ARDUINO, DE PINNEN 5V, GND ETC
+De Arduino Uno, zie {numref}`foto {number} <fig_arduino>` is een van de populairste microcontrollers voor hobbyisten, studenten en professionals. Het is een kleine, programmeerbare elektronica-board die je kunt gebruiken om allerlei creatieve projecten te maken, zoals robots, slimme apparaten en sensoren. Een belangrijk kenmerk van de Arduino Uno is de reeks pinnen die beschikbaar zijn voor interactie met andere elektronische componenten.
 
 ```{figure} Figures/Arduino.jpg
 ---
@@ -14,6 +14,20 @@ name: fig_arduino
 ---
 De Arduino.
 ```
+
+De Arduino Uno heeft verschillende soorten pinnen, elk met een specifieke functie, samengevat in onderstaande tabel. Een groot deel van die pinnen behandelen we tijdens de verschillende onderdelen van de cursus.
+
+|Categorie	|Pinnen	|Functie|
+|---|---|---|
+|Digitale pinnen|	0–13|	Digitale I/O, aan/uit, seriële communicatie|
+|PWM pinnen|	~3, ~5, ~6, ~9, ~10, ~11|	Analoge simulatie (bijv. LED dimmen)|
+|Analoge pinnen|	A0–A5|	Lezen van analoge sensoren|
+|Voedingspinnen|	5V, 3.3V, GND, Vin|	Voeding en gronding van externe componenten|
+|I²C-pinnen|	A4 (SDA), A5 (SCL)|	Communicatie met I²C-apparaten|
+|SPI-pinnen|	MOSI, MISO, SCK|	SPI-communicatie|
+|Reset pin|	RESET|	Herstart van de Arduino Uno|
+|tx & rx| 1 & 2 | seriële communicatie|
+
 
 ## Breadboard
 Het breadboard heeft aan beide zijdes twee kolommen die verbonden worden met de voeding (+ en -). De + kant sluit je aan op de 5V uitgang of op een uitvoerpoort van de Arduino. De – kant sluit je aan op de GND (ground) van de Arduino. Alhoewel je de constante output niet altijd gebruikt, is het wel verstandig om deze altijd aan te sluiten.
@@ -29,6 +43,15 @@ Het breadboard om schakelingen op te bouwen.
 ```
 
 Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… we gaan aan de slag! 
+
+```{figure} Figures/Breadboardopen.PNG
+---
+width: 40%
+name: fig_breadboardopen
+align: center
+---
+Een open gewerkt breadboard om te tonen hoe de rijen en kolommen verbonden zijn.
+```
 
 ```{note}
 Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in het programma te gaan naar: Hulpmiddelen/Poort. Daar kun je de juiste USB poort aanklikken.
@@ -79,15 +102,13 @@ De schakeling van de LED.
 
 a) Er is geen weerstand aanwezig van 150 Ω maar wel een van 220 Ω. Zoek de weerstand op met behulp van de kleurcode: de eerste ring moet rood zijn, de tweede ring ook en de derde ring bruin (22·10). Een andere mogelijkheid is rood, rood, zwart, zwart.
 
-
-
 b) Sluit nu de 5V uitgang van de Arduino aan op de **+** kolom en de **GND** (ground) uitgang van de Arduino aan op de – kolom. 
 
 c) Sluit de LED en de weerstand in serie aan, zie  {numref}`tekening {number} <fig_LED_1>`.
 
 ```{figure} Figures/LED_1.PNG
 ---
-width: 50%
+width: 70%
 name: fig_LED_1
 align: center
 ---
