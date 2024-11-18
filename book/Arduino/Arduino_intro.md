@@ -131,11 +131,11 @@ De te maken schakeling waarbij de LED aangestuurd wordt met Pin 13.
 ```
 
 
-b) Open het programma en open het script blink via: bestand/voorbeelden/basis/blink.
+b) Open het programma en open het script blink via: `bestand/voorbeelden/basis/blink`.
 
 ```{figure} Figures/Blink.gif
 ---
-width: 50%
+width: 80%
 name: fig_gif
 align: center
 ---
@@ -145,7 +145,16 @@ Open uit de examples de code blink
 
 c) Controleer het script met het vinkje. Mocht het programma niet werken, dan geeft het onderaan een foutmelding weer (het kan zijn dat je de COM-poort moet toewijzen, dit doe je via hulpmiddelen/poort).
 
-d) Upload het script naar je Arduino met het tekentje {fa}`right`. (snelcode: ctrl + u)
+```{figure} Figures/COM.gif
+---
+width: 80%
+name: fig_COM
+align: center
+---
+Aanwijzen van de USB poort waar de Arduino aan hangt.
+```
+
+d) Upload het script naar je Arduino met het tekentje {fa}`right-long`. (snelcode: ctrl + u)
 
 e) Beschrijf kort wat je ziet. Probeer wat je ziet te verklaren met behulp van de code.
 
