@@ -1,8 +1,11 @@
-# Je eerste aanpassing
+# Je eerste aanpassing via GitHUB
 
 
 * edit
-* upload via git
-* tip met gitignore
+
 * wat gebeurt er op github?
 * output bekijken
+
+
+* upload via git
+* tip met gitignore
