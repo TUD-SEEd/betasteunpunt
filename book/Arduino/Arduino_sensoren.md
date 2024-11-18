@@ -111,6 +111,6 @@ We beginnen met het laten rijden van de Arduino op verschillende snelheden. Dit 
 Systemen die de temperatuur, luchtvochtigheid en druk kunnen geven kunnen gekocht worden in de winkel. Je kunt ze ook zelf maken. En met een kleine uitbreiding van de spullen die je al hebt, kun je dit maken. Wanneer je er een mooi kastje om heen bouwt heb je je eigen weerstation gemaakt. Begin in deze opdracht met de temperatuur te tonen op een lcd display. Breid deze uit met een knop waarmee je bijvoorbeeld de hoeveelheid licht meet en deze toont op het display.
 ```
 
-```{exercise}Een digitale meetlint
+```{exercise} Een digitale meetlint
 Met een afstandssensor en een lcd display kun je een eenvoudige digitale meetlint maken. Altijd handig als je snel een afstand moet meten die ligt tussen de 2 cm en 3,00 m, of bij het maken van een practicum waarbij de afstand bepaald moet worden (bijvoorbeeld als functie van de tijd). Bij dit laatste is het ook handig om je data op te slaan in een array en weg te schrijven naar een SD-module.
 ```
