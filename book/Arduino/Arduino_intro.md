@@ -5,10 +5,28 @@ Leuk dat je aan de slag gaat met Arduino! Wellicht heb je nog geen idee wat een 
 In deze module gaan we aan het werk met de Arduino en leren we de basismogelijkheden van een Arduino. Bij het werken met een Arduino heb je twee belangrijke onderdelen: De Arduino en een breadboard. De Arduino is de computer, met invoer en uitvoer mogelijkheden. Op het breadboard sluit je de elektronica aan die aangestuurd wordt door de Arduino.
 
 ## Arduino
-
+```{figure} Figures/Arduino.jpg
+---
+width: 300
+name: fig_arduino
+align: center
+figclass: 
+---
+De Arduino.
+```
 
 ## Breadboard
 Het breadboard heeft aan beide zijdes twee kolommen die verbonden worden met de voeding (+ en -). De + kant sluit je aan op de 5V uitgang of op een uitvoerpoort van de Arduino. De – kant sluit je aan op de GND (ground) van de Arduino. Alhoewel je de constante output niet altijd gebruikt, is het wel verstandig om deze altijd aan te sluiten.
+
+```{figure} Figures/Breadboard.jpg
+---
+width: 300
+name: fig_breadboard
+align: center
+figclass: 
+---
+Het breadboard om schakelingen op te bouwen.
+```
 
 Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opgewerkte breadboard. De punten in een rij zijn met elkaar verbonden. Maar laten we hier niet te lang bij stil staan… we gaan aan de slag! 
 
@@ -16,8 +34,27 @@ Het breadboard heeft rijen en kolommen, zie hiernaast en hieronder voor een opge
 Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in het programma te gaan naar: Hulpmiddelen/Poort. Daar kun je de juiste USB poort aanklikken.
 ```
 
+## Benodigdheden
+Benodigdheden voor deze module:
+* Arduino
+* Breadboard
+* Jumperkabels
+* Weerstanden (220 Ω; 330 Ω; 1,0 kΩ; 10 kΩ)
+* Potmeter (1 kΩ; 10 kΩ)
+* Diode
+* 2x LDR
+* LED (rood, geel, groen)
+* RGB LED
+* Servo motor
+* DC Motor
+* 5x Drukknop
+* 2N2222 transistor
+* LCD
+* Actieve piëzo element (buzzer)
 
-```{exercise} Het aansluiten van een LED
+## Opdrachten
+
+````{exercise} Het aansluiten van een LED
 
 Een LED is een diode die licht uitzendt als er stroom door de LED gaat. De LED laat stroom maar door in één richting. De lange poot van de LED moet altijd op de + kant aangesloten worden, de korte poot op de – kant, zie onderstaand figuur.
 
@@ -27,14 +64,22 @@ a) Er is geen weerstand aanwezig van 150 Ω maar wel een van 220 Ω. Zoek de wee
 
 b) Sluit nu de 5V uitgang van de Arduino aan op de + kolom en de GND (ground) uitgang van de Arduino aan op de – kolom. 
 
-c) Sluit de LED en de weerstand in serie aan, zie de tekening.
+c) Sluit de LED en de weerstand in serie aan, zie tekening {numref}`{number}<fig_LED_1>`.
+
+```{figure} Figures/LED_1.PNG
+---
+width: 300
+name: fig_LED_1
+align: center
+figclass: 
+---
+De te maken schakeling
+```
 
 d) Verbind de Arduino via de usb met de computer. Als je het goed hebt gedaan brandt de LED!
 
 Doordat de rode led bij lagere spanning licht uit zendt dan bijvoorbeeld een groene led, kun je een kleinere weerstand bij groene en blauwe led’s gebruiken. Zo branden ze uiteindelijk toch nog even fel!
-```
-
-
+````
 
 ```{exercise} Een knipperende LED
 Nu kun je je led wel laten branden, maar daar heb je nog niet veel aan… Een volgende stap is de LED aansturen met behulp van een stukje code. Om de LED aan te sturen met behulp van code moet je een uitvoerpoort (bijvoorbeeld pin 13) van de Arduino verbinden met je LED. De 5V output heb je nu niet nodig, pin 13 levert nu de spanning. In de tekening zie je dat deze wel verbonden is, bij grotere projecten vergeet je snel de 5V, vandaar!
