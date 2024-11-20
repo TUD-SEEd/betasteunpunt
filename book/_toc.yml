@@ -14,7 +14,16 @@ parts:
     - file: Software/VSC
     - file: Software/Anaconda
     - file: Software/CoLab
-  
+
+  - caption: Jupyter Book
+    numbered: true
+    chapters:
+    - file: JB/JB_intro
+    - file: JB/Stappen.md
+    - file: JB/Online_werken.md
+    - file: JB/Lokaal_bouwen.md
+    - file: JB/Cheatsheet.md
+    
   - caption: Arduino
     numbered: true
     chapters:
@@ -41,14 +50,7 @@ parts:
   #   - file: Python/Python dag 4
   #   - file: Python/Python dag 5
 
-  - caption: Jupyter Book
-    numbered: true
-    chapters:
-    - file: JB/JB_intro
-    - file: JB/Stappen.md
-    - file: JB/Online_werken.md
-    - file: JB/Lokaal_bouwen.md
-    - file: JB/Cheatsheet.md
+
 
   # - caption: IVO
   #   numbered: true

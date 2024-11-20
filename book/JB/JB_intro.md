@@ -17,10 +17,10 @@ De presentatie van de workshop is [hier te downloaden](./JB%20workshop.pptx).
 
 ## Randvoorwaarden
 Er zijn een paar dingen die je moet weten / hebben wil je aan de slag gaan met het maken van een online boek:
-* Programmeer ervaring is niet nodig, maar maakt het een en ander wel makkelijker. 
-* Een account bij [Github](../Software/Github.md)
-* Software om je code in te schrijven, zoals [VSC](../Software/VSC.md)
-* Een beetje geduld, het is een steile leercurve.
+<label><input type="checkbox" class="box"> Programmeer ervaring is niet nodig, maar maakt het een en ander wel makkelijker.  </input></label> 
+<label><input type="checkbox" class="box"> Een account bij [Github](../Software/Github.md) </input></label> 
+<label><input type="checkbox" class="box"> Software om je code in te schrijven, zoals [VSC](../Software/VSC.md) </input></label> 
+<label><input type="checkbox" class="box"> Een beetje geduld, het is een steile leercurve. </input></label> 
 
 Klaar? Laten we beginnen..
 

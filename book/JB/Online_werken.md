@@ -32,7 +32,7 @@ Het boek wordt nu opnieuw gebouwd. Als dat klaar is, kun je het resultaat op de 
 iets over figuur toevoegen
 
 1 add file
-``` {figure} incl_fig.PNG
+``` {figure} figures/incl_fig.PNG
 ---
 width: 50%
 ---
