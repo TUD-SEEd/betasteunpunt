@@ -29,9 +29,11 @@ Het boek wordt nu opnieuw gebouwd. Als dat klaar is, kun je het resultaat op de 
 
 ## Toevoegen van een figuur
 
-iets over figuur toevoegen
+**iets over figuur toevoegen**
 
-1 add file
+````{exercise}
+**1 add file in de map**
+
 ``` {figure} figures/incl_fig.PNG
 ---
 width: 50%
@@ -39,13 +41,17 @@ width: 50%
 add bestand in folder
 ```
 
-2 toevoegen van figuur in de .md file
+**2 toevoegen van figuur in de .md file**
+
+**3 aanpassen van width, toevoegen van label**
+```{tip}
+We hebben een pagina met alle belangrijke [codes](./Cheatsheet.md).
+
+Nog meer informatie over de opties bij figuren vind je [hier](https://teachbooks.io/manual/basic-features/figures.html).
+```
+````
+
+**Iets meer uitleg over figuur en verwijzen naar figuur**
 
 
 
-
-Voeg figuur `zonsondergang.PNG` toe aan het bestand bestand `overview.md` en pas de breedte aan naar 80%, voeg een onderschrift toe en lijn de figuur uit naar rechts.
-
-https://teachbooks.io/manual/basic-features/figures.html
-
-Zie ook cheatsheet

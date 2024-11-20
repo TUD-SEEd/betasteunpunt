@@ -13,13 +13,16 @@ In deze workshop leer je de basis om je eigen boek te maken. Daarbij maken we ge
 
 De presentatie van de workshop is [hier te downloaden](./JB%20workshop.pptx).
 
-<label><input type="checkbox" id="week03_task2" class="box"> [**Watch the lecture videos**](./Lokaal_bouwen.md) </input></label>
 
 ## Randvoorwaarden
 Er zijn een paar dingen die je moet weten / hebben wil je aan de slag gaan met het maken van een online boek:
+
 <label><input type="checkbox" class="box"> Programmeer ervaring is niet nodig, maar maakt het een en ander wel makkelijker.  </input></label> 
+
 <label><input type="checkbox" class="box"> Een account bij [Github](../Software/Github.md) </input></label> 
+
 <label><input type="checkbox" class="box"> Software om je code in te schrijven, zoals [VSC](../Software/VSC.md) </input></label> 
+
 <label><input type="checkbox" class="box"> Een beetje geduld, het is een steile leercurve. </input></label> 
 
 Klaar? Laten we beginnen..
