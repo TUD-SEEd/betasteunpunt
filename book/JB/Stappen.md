@@ -31,29 +31,3 @@ Y Output in figuur hieronder
 Iets over wat er gebeurt online met het maken van het boek
 
 
-## Eerste aanpassing
-
-In GitHub kun je direct wijzigingen aanbrengen in de bestanden op het remote repository.
-Je kunt wijzigingen aanbrengen in de bestanden die al in het repository staan door de teksteditor te gebruiken maar je kunt ook nieuwe bestanden aanmaken. 
-
-``` {figure} figures/templatecontent.PNG
-```
-
-2. Navigeer naar het bestand waar je wijzigingen wilt aanbrengen (`overview.md`). Klik dan op de naar beneden wijzende pijl helemaal links in de bovenste balk en selecteer de optie `Edit single file`.
-
-
-``` {figure} figures/eersteedit.gif
-```
-
-3. Breng je wijzigingen aan in de teksteditor en als je klaar bent, commit je je wijzigingen naar het "remote repository" door op de groene `Commit changes` knop te klikken.
-
-
-book -> some_content -> overview
-
-klik pen (edit this file)
-
-verander `# overview` in eigen titel
-
-commit change
-
-zie output (even wachten, want boek wordt gebouw)
