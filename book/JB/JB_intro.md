@@ -13,6 +13,8 @@ In deze workshop leer je de basis om je eigen boek te maken. Daarbij maken we ge
 
 De presentatie van de workshop is [hier te downloaden](./JB%20workshop.pptx).
 
+<label><input type="checkbox" id="week03_task2" class="box"> [**Watch the lecture videos**](./Lokaal_bouwen.md) </input></label>
+
 ## Randvoorwaarden
 Er zijn een paar dingen die je moet weten / hebben wil je aan de slag gaan met het maken van een online boek:
 * Programmeer ervaring is niet nodig, maar maakt het een en ander wel makkelijker. 
