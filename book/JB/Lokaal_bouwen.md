@@ -58,8 +58,8 @@ Als je het TeachBooks template gebruikt, wordt het pakket `teachbooks` automatis
 
 Nu ben je klaar om boeken te maken!
 
-(=sec:lok)
-## Boek lokaal opslaan
+(sec:lok)=
+## Stap X: Boek lokaal opslaan
 1. Open de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
 
 ``` {figure} ./figures/gitdesktop1.png
@@ -87,4 +87,4 @@ width: 50%
 
 De bestanden worden nu gekopieerd en je hebt een lokale kopie van de repository.
 
-## Stap X... het bouwen van het boek
+## Stap X+1... het bouwen van het boek

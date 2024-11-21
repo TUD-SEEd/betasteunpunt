@@ -19,10 +19,12 @@ parts:
     numbered: true
     chapters:
     - file: JB/JB_intro
-    - file: JB/Stappen.md
-    - file: JB/Online_werken.md
-    - file: JB/Lokaal_bouwen.md
-    - file: JB/Cheatsheet.md
+    - file: JB/Stappen
+    - file: JB/Online_werken
+    - file: JB/Lokaal_bouwen
+    - file: JB/Editing
+    - file: JB/JupNob.ipynb
+    - file: JB/Cheatsheet
     
   - caption: Arduino
     numbered: true
