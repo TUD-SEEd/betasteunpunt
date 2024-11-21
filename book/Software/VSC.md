@@ -24,6 +24,8 @@ Een aantal extensies zijn handig / nodig voor programmeren in Python en/of het m
 - [Jupyter]()
 
 ````{exercise}
+Installeer de extensie Jupyter, MyST-Markdown, Python & Code Spell checker, zie {numref}`Figuur {number} <fig_extensions>` waar deze te vinden zijn.
+
 ``` {figure} ../figures/extensions.PNG
 ---
 name: fig_extensions

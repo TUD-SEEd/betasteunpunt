@@ -10,6 +10,7 @@ Om het boek niet alleen online te bouwen en te zien, maar ook op je lokale compu
 
 <label><input type="checkbox" class="box"> De bestanden op de computer.</input></label> 
 
+De eerste drie stappen hoef je maar eenmalig uit te voeren. Als je alle benodigdheden hebt geïnstalleerd, volstaat het een volgende keer om direct naar [stap X](sec:lok) te gaan.
 
 ## Stap 1: Miniconda installeren
 Hopelijk heb je Miniconda al geïnstalleerd, zo niet dan kun je [deze instructies](../Software/Anaconda.md) volgen. 
@@ -20,11 +21,13 @@ Heb je meer informatie nodig over Miniconda? Kijk dan eens [hier](https://teachb
 ## Stap 2: Installeren van een IDE
 Om bestanden te kunnen bewerken en (een deel van) de output te kunnen zien, is het nodig om een IDE te installeren, bijvoorbeeld [VSC](../Software/VSC.md). Als je dat nog niet gedaan hebt, volg de instructies voor het installeren van VSC en de betreffende extensies.
 
+Ook hier geldt, heb je meer informatie nodig, kijk dan [hier](https://teachbooks.io/learn-programming/install/ide/vsc.html).
+
 ## Stap 3: Jupyter-book
 
 
 
-[https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book]
+[Jupyter book](https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book)
 
 ### Requirements.txt en TeachBooks Python Package
 
@@ -55,6 +58,7 @@ Als je het TeachBooks template gebruikt, wordt het pakket `teachbooks` automatis
 
 Nu ben je klaar om boeken te maken!
 
+(=sec:lok)
 ## Boek lokaal opslaan
 1. Open de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
 
@@ -82,3 +86,5 @@ width: 50%
 ```
 
 De bestanden worden nu gekopieerd en je hebt een lokale kopie van de repository.
+
+## Stap X... het bouwen van het boek
