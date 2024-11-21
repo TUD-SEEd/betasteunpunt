@@ -1,5 +1,17 @@
 # Lokaal bouwen
 
+Om het boek niet alleen online te bouwen en te zien, maar ook op je lokale computer te maken en bouwen heb je het volgende nodig: 
+
+<label><input type="checkbox" class="box"> Python, bijv. via [conda](../Software/Anaconda.md).</input></label> 
+<label><input type="checkbox" class="box"> Een integrated development environment (IDE) zoals [VSC](../Software/VSC.md).</input></label> 
+
+## Stap 1: Miniconda installeren
+
+Hopelijk heb je Miniconda al geïnstalleerd, zo niet dan kun je [deze instructies](../Software/Anaconda.md) volgen. 
+
+Heb je meer informatie nodig over Miniconda? Kijk dan eens [hier](https://teachbooks.io/learn-programming/install/python/miniconda.html).
+
+
 
 * Installeren van dependencies
 * Terminal
