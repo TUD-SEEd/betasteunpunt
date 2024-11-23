@@ -54,7 +54,7 @@ Een open gewerkt breadboard om te tonen hoe de rijen en kolommen verbonden zijn.
 ```
 
 ```{note}
-Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in het programma te gaan naar: Hulpmiddelen/Poort. Daar kun je de juiste USB poort aanklikken.
+Vaak moet je even aangeven in welke USB-Poort je Arduino zit. Dit doe je door in het programma te gaan naar: Hulpmiddelen/Poort. Daar kun je de juiste USB poort aanklikken, zie {numref}`Figuur {number} <fig_COM>`.
 ```
 
 ## Benodigdheden
