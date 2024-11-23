@@ -3,7 +3,15 @@ Wanneer je alleen een knop en een LED gebruikt ben je snel uitgekeken en heb je 
 
 We gaan beginnen met een lichtsensor. Voor een lichtsensor hebben we een LDR nodig, zie de foto. LDR staat voor Light Dependent Resistor (licht afhankelijke weerstand). De weerstandswaarde verandert met veranderende lichtintensiteit, zie de grafiek.
 
-We sluiten de LDR in serie aan met een Ohmse weerstand (een weerstand met een constante weerstandswaarde). Zo hebben we een spanningsdeler gemaakt. Een deel van de spanning staat over de LDR en een deel van de spanning staat over de weerstand. Het enige wat we moeten doen is de spanning over de LDR uitlezen en we weten hoe licht het is!
+We sluiten de LDR in serie aan met een Ohmse weerstand (een weerstand met een constante weerstandswaarde), zie {numref}`Figuur {number} <fig_deler_LDR>`. Zo hebben we een spanningsdeler gemaakt. Een deel van de spanning staat over de LDR en een deel van de spanning staat over de weerstand. Het enige wat we moeten doen is de spanning over de LDR uitlezen en we weten hoe licht het is!
+
+```{figure} Figures/spanningsdeler_LDR.png
+---
+width: 60%
+name: fig_deler_LDR
+---
+De spanningsdeler met Ohmse weerstand en LDR.
+```
 
 Het is belangrijk om iets meer te weten over hoe een spanningsdeler werkt: bij het uitlezen van een sensor maken we gebruik van een spanningsdeler. De LDR en de Ohmse weerstand staan in serie zodat er geldt: $R_{totaal} = R_{LDR} + R_Ω$. De bronspanning is 5,0 Volt en omdat de weerstanden in serie geschakeld zijn geldt dat de stroomsterkte overal gelijk is. De stroomsterkte bereken je met: $I = \frac{U_{bron}}{R_{totaal}}$. De spanning wordt netjes verdeeld en de grootste weerstand krijgt de meeste spanning. Als je deze informatie combineert zie je dat de verhouding tussen de spanningen gelijk is aan de verhouding tussen de weerstanden: $\frac{U_{LDR}}{U_Ω} = \frac{R_{LDR}}{R_Ω}$.
 
@@ -48,3 +56,19 @@ h) Bedenk een manier om de sensor zelf te laten ijken. Dus laat de sensor zelf d
 
 Bouw een reactietijdmeter waarbij iemand zo snel mogelijk op de knop moet drukken als een rode LED uit gaat en een groene LED aangaat. Om dit lastiger te maken voor de persoon die moet drukken kun je gebruik maken van functie `random(a,b)`. Waarbij a en b getallen zijn, zo kan je een willekeurige delay inbouwen. De functie `millis()` geeft aan hoeveel milliseconde ervoor bij zijn gegaan.
 ```
+
+```{code} python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def U_LDR(U_b, R, R_LDR):
+    return R/(R+R_LDR)*U_b
+
+R_LDR = np.linspace(0,int(1e4),1000)
+
+plt.figure()
+plt.plot(R_LDR,U_LDR(5,100,R_LDR),label="$R=100\Omega$")
+plt.plot(R_LDR,U_LDR(5,10000,R_LDR),label="$R=10000\Omega$")
+plt.xlabel('$R_{LDR}$ \Omega')
+plt.ylabel('$U_{LDR}$ (V)')
+plt.show()
