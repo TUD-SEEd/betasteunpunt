@@ -13,10 +13,9 @@ void loop() {
 
 De functie map wil 5 getallen hebben. Het eerste getal is de waarde die de analoge poort uitleest. Het tweede getal is het laagste getal dat uitgelezen kan worden, het derde getal de grootste waarde die uitgelezen kan worden. Dit hoeven niet per se 0 en 1023 te zijn, de waarde verkrijg je bij het ijken van je sensor. De gevoeligheid van je sensor kan dus ook zitten tussen 500 en 900, zie wederom grafiek 2 uit programmeren deel 3. Het vierde en vijfde getal geven het bereik van de output weer. In het voorbeeld moet een input waarde van 500 een output waarde worden van 255. Een input waarde van 900 moet een output waarde van 0 worden.
 
-Een functie die ook handig is, is de functie ++. Elke keer als de loop de volgende cyclus ingaat, wordt de waarde met 1 verhoogd. Zo kun je bijvoorbeeld eenvoudig  bijhouden hoeveel loops (iteraties) er al zijn geweest. Ook is het mogelijk om op die manier elke keer een andere pin aan te sturen of later een frequentie te veranderen.
+Een functie die ook handig is, is de functie `++`. Elke keer als de loop de volgende cyclus ingaat, wordt de waarde met 1 verhoogd. Zo kun je bijvoorbeeld eenvoudig  bijhouden hoeveel loops (iteraties) er al zijn geweest. Ook is het mogelijk om op die manier elke keer een andere pin aan te sturen of later een frequentie te veranderen.
 
-Als ++ bestaat, dan zal -- ook wel bestaan. En dat klopt. -- zorgt ervoor dat de waarde met 1 wordt verlaagd. Beide codes kunnen in een for-loop geplaatst worden. Dit is een loop binnen de loop. Kijk eens naar het voorbeeld waarbij er een soort aftel mechanisme in zit voordat het programma zelf begint… (let op, de variabele i moet je nog wel even declareren voor de setup!
-
+Als `++` bestaat, dan zal `--` ook wel bestaan. En dat klopt. `--` zorgt ervoor dat de waarde met 1 wordt verlaagd. Beide codes kunnen in een for-loop geplaatst worden. Dit is een loop binnen de loop. Kijk eens naar het voorbeeld waarbij er een soort aftel mechanisme in zit voordat het programma zelf begint… (let op, de variabele i moet je nog wel even declareren voor de setup!
 
 ```{exercise}
 Herschrijf opdracht 2h met de functie ++.
