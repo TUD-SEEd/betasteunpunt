@@ -5,14 +5,14 @@ We gaan beginnen met een lichtsensor. Voor een lichtsensor hebben we een LDR nod
 
 We sluiten de LDR in serie aan met een Ohmse weerstand (een weerstand met een constante weerstandswaarde). Zo hebben we een spanningsdeler gemaakt. Een deel van de spanning staat over de LDR en een deel van de spanning staat over de weerstand. Het enige wat we moeten doen is de spanning over de LDR uitlezen en we weten hoe licht het is!
 
-Het is belangrijk om iets meer te weten over hoe een spanningsdeler werkt: bij het uitlezen van een sensor maken we gebruik van een spanningsdeler. De LDR en de Ohmse weerstand staan in serie zodat er geldt: $R_{totaal} = R_{LDR} + R_Ω$. De bronspanning is 5,0 Volt en omdat de weerstanden in serie geschakeld zijn geldt dat de stroomsterkte overal gelijk is. De stroomsterkte bereken je met: $I = \frac{U_{bron}}{R_{totaal}$. De spanning wordt netjes verdeeld en de grootste weerstand krijgt de meeste spanning. Als je deze informatie combineert zie je dat de verhouding tussen de spanningen gelijk is aan de verhouding tussen de weerstanden: $\frac{U_{LDR}}{U_Ω} = \frac{R_{LDR}}{R_Ω}$.
+Het is belangrijk om iets meer te weten over hoe een spanningsdeler werkt: bij het uitlezen van een sensor maken we gebruik van een spanningsdeler. De LDR en de Ohmse weerstand staan in serie zodat er geldt: $R_{totaal} = R_{LDR} + R_Ω$. De bronspanning is 5,0 Volt en omdat de weerstanden in serie geschakeld zijn geldt dat de stroomsterkte overal gelijk is. De stroomsterkte bereken je met: $I = \frac{U_{bron}}{R_{totaal}}$. De spanning wordt netjes verdeeld en de grootste weerstand krijgt de meeste spanning. Als je deze informatie combineert zie je dat de verhouding tussen de spanningen gelijk is aan de verhouding tussen de weerstanden: $\frac{U_{LDR}}{U_Ω} = \frac{R_{LDR}}{R_Ω}$.
 
-Als het lichter is, wordt de weerstandswaarde van de LDR kleiner waardoor er minder spanning over de LDR staat maar meer spanning over de Ohmse weerstand. De spanning over de LDR ($U_{LDR} = 5,0 · \frac{R_{LDR}}{R_{LDR} + R_Ω}) kun je meten met behulp van de ANALOG IN van de Arduino. De spanning is dan een maat voor de gemeten lichtintensiteit. 
+Als het lichter is, wordt de weerstandswaarde van de LDR kleiner waardoor er minder spanning over de LDR staat maar meer spanning over de Ohmse weerstand. De spanning over de LDR ($U_{LDR} = 5,0 · \frac{R_{LDR}}{R_{LDR} + R_Ω}$) kun je meten met behulp van de ANALOG IN van de Arduino. De spanning is dan een maat voor de gemeten lichtintensiteit. 
 
 In welk gebied je sensor gevoelig moet zijn bepaalt de keuze voor een Ohmse weerstand. Zie de tweede grafiek. De LDR heeft een waarde tussen de 10 kΩ en 20 kΩ: dus kies een grote weerstand!
 
 
-```{exercise} Een lichtsensor
+````{exercise} Een lichtsensor
 
 De schakeling lijkt erg op de schakeling van opdracht 4. Alleen nu gebruiken we een LDR en een ANALOG IN.
 
@@ -42,7 +42,7 @@ f) Breid de schakeling verder uit zodat je de hele schakeling ook met een knop a
 g) Leg met behulp van grafiek 2 uit dat een grote waarde van RΩ ervoor zorgt dat de LDR in het hele bereik vrijwel even gevoelig is.
 
 h) Bedenk een manier om de sensor zelf te laten ijken. Dus laat de sensor zelf de minimale en maximale waarde bepalen.
-```
+````
 
 ```{exercise} Reactietijd meten
 
