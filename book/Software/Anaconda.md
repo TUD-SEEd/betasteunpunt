@@ -9,15 +9,19 @@ We raden aan om Miniconda te installeren, omdat het een beter idee geeft van hoe
 Er zijn meerdere downloadopties op de site van conda. Zorg ervoor dat je miniconda downloadt. Wacht bovendien met het volgen van de onderstaande instructies totdat miniconda volledig is geïnstalleerd.
 ```
 
-Open na de installatie de anaconda-prompt. Dit opent een terminal (een tekstinterface die wordt gebruikt om te communiceren met het besturingssysteem door opdrachten, scripts of programma's uit te voeren). Om te controleren of de installatie correct is en welke versie is geïnstalleerd, typ:
+Open na de installatie de anaconda-prompt. Dit opent een terminal (een tekstinterface die wordt gebruikt om te communiceren met het besturingssysteem door opdrachten, scripts of programma's uit te voeren), zie {numref}`Figuur {number} <fig_condaversion>`. Om te controleren of de installatie correct is en welke versie is geïnstalleerd, typ:
 
 ```{code}
 conda --version
 ```
 
 ```{figure} condaversion.PNG
-:figclass: margin
-:width: 100%
+---
+name: fig_condaversion
+figclass: margin
+width: 100%
+---
+De conda terminal waar we de versie checken.
 ```
 
 en druk op enter, de terminal zal de conda-versie retourneren.
