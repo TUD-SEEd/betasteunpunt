@@ -32,7 +32,7 @@ parts:
     - file: Arduino/Arduino_intro
     - file: Arduino/Arduino_prog1
     - file: Arduino/Arduino_prog2
-    - file: Arduino/Arduino_elek1
+    - file: Arduino/Arduino_elek1.ipynb
     - file: Arduino/Arduino_prog3
     - file: Arduino/Arduino_elek2
     - file: Arduino/Arduino_prog4
