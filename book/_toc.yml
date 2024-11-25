@@ -1,7 +1,6 @@
 format: jb-book
 root: start.md
 
-
 parts:
   - caption:
     chapters:
@@ -10,10 +9,24 @@ parts:
   - caption: Software
     numbered: true
     chapters:
+    - file: Software/Intro
     - file: Software/Github
     - file: Software/VSC
     - file: Software/Anaconda
     - file: Software/CoLab
+    - file: Software/Arduino
+
+
+  - caption: Python
+    numbered: true
+    chapters:
+    - file: Python/Python_intro
+    - file: Python/Programma
+    - file: Python/Python dag 1
+    - file: Python/Python dag 2
+    - file: Python/Python dag 3
+  #   - file: Python/Python dag 4
+  #   - file: Python/Python dag 5
 
   - caption: Jupyter Book
     numbered: true
@@ -26,31 +39,21 @@ parts:
     - file: JB/JupNob.ipynb
     - file: JB/Cheatsheet
     
-  # - caption: Arduino
-  #   numbered: true
-  #   chapters:
-  #   - file: Arduino/Arduino_intro
-  #   - file: Arduino/Arduino_prog1
-  #   - file: Arduino/Arduino_prog2
-  #   - file: Arduino/Arduino_elek1.ipynb
-  #   - file: Arduino/Arduino_prog3
-  #   - file: Arduino/Arduino_elek2
-  #   - file: Arduino/Arduino_prog4
-  #   - file: Arduino/Arduino_cheatsheet
-  #   - file: Arduino/Arduino_sensoren
-  #   - file: Arduino/Arduino_prog5
-  #   - file: Arduino/Arduino_scripts
-
-  - caption: Python
+  - caption: Arduino
     numbered: true
     chapters:
-    - file: Python/Python_intro
-    - file: Python/Programma
-    - file: Python/Python dag 1
-    - file: Python/Python dag 2
-    - file: Python/Python dag 3
-  #   - file: Python/Python dag 4
-  #   - file: Python/Python dag 5
+    - file: Arduino/Arduino_intro
+    - file: Arduino/Arduino_prog1
+    - file: Arduino/Arduino_prog2
+    - file: Arduino/Arduino_elek1.ipynb
+    - file: Arduino/Arduino_prog3
+    - file: Arduino/Arduino_elek2
+    - file: Arduino/Arduino_prog4
+    - file: Arduino/Arduino_sensoren
+    - file: Arduino/Arduino_prog5
+    - file: Arduino/Arduino_scripts
+    - file: Arduino/Arduino_cheatsheet
+
 
 
 
