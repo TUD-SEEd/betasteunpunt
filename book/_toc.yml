@@ -16,7 +16,6 @@ parts:
     - file: Software/CoLab
     - file: Software/Arduino
 
-
   - caption: Python
     numbered: true
     chapters:
