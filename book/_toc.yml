@@ -26,20 +26,20 @@ parts:
     - file: JB/JupNob.ipynb
     - file: JB/Cheatsheet
     
-  - caption: Arduino
-    numbered: true
-    chapters:
-    - file: Arduino/Arduino_intro
-    - file: Arduino/Arduino_prog1
-    - file: Arduino/Arduino_prog2
-    - file: Arduino/Arduino_elek1.ipynb
-    - file: Arduino/Arduino_prog3
-    - file: Arduino/Arduino_elek2
-    - file: Arduino/Arduino_prog4
-    - file: Arduino/Arduino_cheatsheet
-    - file: Arduino/Arduino_sensoren
-    - file: Arduino/Arduino_prog5
-    - file: Arduino/Arduino_scripts
+  # - caption: Arduino
+  #   numbered: true
+  #   chapters:
+  #   - file: Arduino/Arduino_intro
+  #   - file: Arduino/Arduino_prog1
+  #   - file: Arduino/Arduino_prog2
+  #   - file: Arduino/Arduino_elek1.ipynb
+  #   - file: Arduino/Arduino_prog3
+  #   - file: Arduino/Arduino_elek2
+  #   - file: Arduino/Arduino_prog4
+  #   - file: Arduino/Arduino_cheatsheet
+  #   - file: Arduino/Arduino_sensoren
+  #   - file: Arduino/Arduino_prog5
+  #   - file: Arduino/Arduino_scripts
 
   - caption: Python
     numbered: true
