@@ -27,9 +27,9 @@ Breng eventueel andere wijzigingen aan in de teksteditor en als je klaar bent, c
 Het boek wordt nu opnieuw gebouwd. Als dat klaar is, kun je het resultaat op de GitHub page bekijken.
 ````
 
-```{note} Summary
+```{admonition} Samenvatting bij commit
 :class: dropdown
-Werk je met meerdere mensen in GitHub, of zelf aan een groot project. Dan is het verstandig om de commit een herkenbare titel te geven en eventueel een samenvatting toe te voegen wat er precies gewijzigd is. Zo kun je eventuele fouten vroegtijdig opsporen en te niet doen. Ook kun je uitleggen waarom bepaalde aanpassingen gedaan zijn.
+Werk je met meerdere mensen in GitHub, of zelf aan een groot project. Dan is het verstandig om de commit een herkenbare titel (commit message) te geven en eventueel een samenvatting (extended description) toe te voegen wat er precies gewijzigd is. Zo kun je eventuele fouten vroegtijdig opsporen en te niet doen. Ook kun je uitleggen waarom bepaalde aanpassingen gedaan zijn.
 ```
 
 ## Toevoegen van een figuur
@@ -42,25 +42,39 @@ Als we een figuur in ons boek willen toevoegen, dan kunnen we verwijzen naar een
 
 We moeten dus eerst een figuur uploaden naar GitHub en vervolgens in onze file verwijzen naar die figuur. (Let op! Later wordt dit veel makkelijker.)
 
-````{exercise}
-**1 add file in de map**
+`````{exercise}
+Op GitHub, onder het kopje code...
 
-``` {figure} figures/incl_fig.PNG
+1. Navigeer naar book/figures en klik op `add file` -> `Upload files`. 
+```` {figure} figures/incl_fig.PNG
 ---
 width: 50%
 ---
-add bestand in folder
+add bestand in de folder
+````
+2. Kies de figuur die je toe wilt voegen (onthoud de naam van de file!).
+3. Commit je veranderingen naar github (het bestand wordt geupload)
+4. Navigeer naar book en open intro.md en druk op edit this file.
+5. Kopieer de code hieronder waarbij je de naam van het figuur aanpast.
+
+````{code}
+``` {figure} figures/incl_fig.PNG
+---
+width: 50%
+name: fig_mijneerstefiguur
+---
+add bestand in de folder
 ```
+````
 
-**2 toevoegen van figuur in de .md file**
+6. Commit je verandering en bekijk het resultaat op GitHub pages.
 
-**3 aanpassen van width, toevoegen van label**
-```{tip}
+````{tip}
 We hebben een pagina met alle belangrijke [codes](./Cheatsheet.md).
 
 Nog meer informatie over de opties bij figuren vind je [hier](https://teachbooks.io/manual/basic-features/figures.html).
-```
 ````
+`````
 
 **Iets meer uitleg over figuur en verwijzen naar figuur**
 
