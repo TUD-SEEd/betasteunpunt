@@ -39,7 +39,7 @@ Omdat miniconda een minimale installatie is, moet je een aantal packages, librar
 
 2. Start miniconda prompt. 
 
-3. Navigeer naar de map waarin de gedownloade file staat.
+3. Navigeer naar de map waarin de gedownloade file staat. (zie hieronder)
 
 4. Type `pip install -r requirements.txt` en druk enter.
 
@@ -47,15 +47,17 @@ Omdat miniconda een minimale installatie is, moet je een aantal packages, librar
 
 ```
 
-```{admonition} Gebruik van de terminal en command line
+````{admonition} Gebruik van de terminal en command line
 Normaal gesproken navigeren we door onze mappen met behulp van een grafische interface en klikken we door de mappen. Er is echter een andere manier om door mappen te navigeren, namelijk via de opdrachtregel (terminal) zoals we doen met de Anaconda-prompt.
 
 Wanneer je de opdracht `dir` uitvoert, worden de mappen en bestanden in de map waarin je je momenteel bevindt, geretourneerd. Je kunt naar een andere map gaan door de opdracht `cd <NAMEFOLDER>` uit te voeren. Als je naar een hogere map wilt gaan, voer je de opdracht `cd ..` uit.
 
 ```{figure} terminaldir.PNG
 ---
+class: dropdown
 name: fig_terminal
 width: 70%
 ---
 Navigeren door de mappen via de command line.
 ```
+````
