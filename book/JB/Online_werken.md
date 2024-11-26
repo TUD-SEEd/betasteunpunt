@@ -53,7 +53,7 @@ width: 50%
 add bestand in de folder
 ````
 2. Kies de figuur die je toe wilt voegen (onthoud de naam van de file!).
-3. Commit je veranderingen naar github (het bestand wordt geupload)
+3. Commit je veranderingen naar github (het bestand wordt geüpload)
 4. Navigeer naar book en open `intro.md` en druk op `edit this file`.
 5. Kopieer de code hieronder naar die file, pas de naam van het figuur aan naar de naam van je eigen figuur.
 
@@ -72,7 +72,7 @@ add bestand in de folder
 `````
 
 ```{warning}
-De code is hoofdletter gevoelig. Het maakt dus uit of je extentie .png is of .PNG
+De code is hoofdletter gevoelig. Het maakt dus uit of je extensie .png is of .PNG
 ```
 
 ```{tip}
@@ -81,8 +81,7 @@ We hebben een pagina met alle belangrijke [codes](./Cheatsheet.md).
 Nog meer informatie over de opties bij figuren vind je [hier](https://teachbooks.io/manual/basic-features/figures.html).
 ```
 
-**Iets meer uitleg over figuur en verwijzen naar figuur**
-
+Je kunt figuren op verschillende plaatsen positioneren (links / midden / rechts /kantlijn), de grootte aanpassen, van een onderschrift voorzien etc. Raadpleeg bovenstaande documentatie en probeer de verschillende settings.
 
 ## Je favoriete vergelijking
 

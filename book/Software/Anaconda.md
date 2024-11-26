@@ -30,7 +30,7 @@ Om bepaalde packages te installeren heb je de zogenaamde `pip` pipeline nodig. O
 conda install pip
 ```
 
-
+(seq:req)=
 ## Requirements
 Omdat miniconda een minimale installatie is, moet je een aantal packages, libraries extra installeren. De belangrijkste staan in deze [requirements file](./requirements.txt). 
 
@@ -45,6 +45,13 @@ Omdat miniconda een minimale installatie is, moet je een aantal packages, librar
 
 5. De packages die nog niet geïnstalleerd zijn worden nu geïnstalleerd. Dat kan even duren...
 
+```
+
+```{tip}
+:class: dropdown
+In de requirements staan voor een aantal packages (numpy, scipy, matplotlib) een #. De tekst daarachter wordt gezien als commentaar. Ga je ook aan de slag met Python programmeren, dan heb je deze packages ook nodig!
+
+Je kunt ze ook nog handmatig installeren met de code `pip install <package>` 
 ```
 
 ````{admonition} Gebruik van de terminal en command line

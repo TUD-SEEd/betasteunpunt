@@ -24,52 +24,20 @@ Om bestanden te kunnen bewerken en (een deel van) de output te kunnen zien, is h
 Ook hier geldt, heb je meer informatie nodig, kijk dan [hier](https://teachbooks.io/learn-programming/install/ide/vsc.html).
 
 ## Stap 3: Jupyter-book
-
-
-
-[Jupyter book](https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book)
-
-### Requirements.txt en TeachBooks Python Package
-
-Als TeachBooks verzamelen we een reeks bestaande open-source software en houden we onze boeken up-to-date zodat jij dat niet hoeft te doen! Sommige software is samen met onze TA's ontwikkeld om de leerervaring van onze studenten te verbeteren en het boekontwikkelingsproces voor onze docenten te vergemakkelijken. Door deze tools vanaf een centrale locatie in te zetten, kunnen we veelvoorkomende problemen voorkomen voordat ze zich voordoen en ze snel verhelpen als ze zich toch voordoen. Omdat het landschap van open-source software snel verandert, is het essentieel om contact te houden en bronnen met elkaar te delen om onderhoud en downtime voor onze boekwebsites te minimaliseren en ons te richten op wat echt belangrijk is: lesgeven!
-
-
-
-
-
-Bij het werken aan grotere projecten (met veel coole interactieve functies) kan het nodig zijn om veel python-pakketten te installeren. Het kan handig zijn om de benodigde pakketten op te geven in een tekstbestand (bijvoorbeeld `environment.yml`) en dan conda te vertellen om de omgeving aan te maken op basis van de inhoud van het bestand!
-
-Als je bij een team komt dat aan complexe projecten werkt, kan het bovendien handig zijn om een nieuwe omgeving aan te maken op basis van zo'n tekstbestand, zodat je een up-to-date omgeving hebt die je een vliegende start geeft. Het team kan ook een `requirements.txt` bestand leveren waarin alle pakketten staan die je moet downloaden om aan het project te kunnen werken. Nu zou het ook duidelijk moeten worden waarom het de voorkeur verdient om voor elk project/boek waaraan je werkt een nieuwe omgeving aan te maken, omdat ze kunnen vereisen dat je verschillende pakketten gebruikt!
-
-Hier is een voorbeeld van hoe een `requirements.txt` bestand eruit zou kunnen zien.
-
-```
-# first list the packages you wish to download from PyPI
-sympy
-teachbooks
-jupyterbook_patches
-
-# now list the packages (and the respective url) you wish to download from the GitLab package registry
---extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe ~= 0.9.9
-```
-
-Als je het TeachBooks template gebruikt, wordt het pakket `teachbooks` automatisch opgenomen in het `requirements.txt` bestand en hoef je het pakket `jupyter-book` niet op te geven.
-
-Nu ben je klaar om boeken te maken!
+Om de boeken lokaal te kunnen bouwen (van markdown files omzetten naar functionele HTML pagina's) heb je nog een aantal packages nodig, zie bijv. [Jupyter book](https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book). Dat kun je zelf handmatig doen, maar de Teachbooks tool voorziet daar ook in. Heb je dat nog niet gedaan, bekijk dan de sectie over de [requirements](seq:req) en volg de stappen die daar beschrijven staan. Dan ben je als het goed is klaar om ook op de eigen computer het boek te bouwen en bekijken.
 
 (sec:lok)=
-## Stap X: Boek lokaal opslaan
-1. Open de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
+## Stap 4: Boek lokaal opslaan
+Het boek staat nu alleen nog online, op GitHub. We moeten alles downloaden (clonen). Dat kan zoals [hier beschreven met VSC](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=activity-bar). Maar we kiezen er hiervoor om dat te doen via GitHub Desktop.
+
+1. Open op GitHub de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
 
 ``` {figure} ./figures/gitdesktop1.png
 ```
 
 2. Kopieer de link en open Github Desktop.
 
-3. In GitHub Desktop, klik linksboven op `file` en vervolgens `Clone Repository`.
-
-Clicking on the button will display the following screen. Click on Open with GitHub Desktop.
+3. In GitHub Desktop, klik linksboven op `file` en vervolgens `Clone Repository`. Dat levert, als het goed is het volgende scherm op: 
 
 ``` {figure} ./figures/gitdesktop2.png
 ---
@@ -85,6 +53,41 @@ width: 50%
 ---
 ```
 
-De bestanden worden nu gekopieerd en je hebt een lokale kopie van de repository.
+De bestanden worden nu gekopieerd en je hebt een lokale (exacte) kopie van de repository.
 
-## Stap X+1... het bouwen van het boek
+## Stap 5: Aanpassing maken in VSC
+1. Open VSC en open de folder waarin het *boek* staat. Je kunt dezelfde folder structuur herkennen die op GitHub stond. 
+
+2. Open het `overview.md` bestand en pas deze naar eigen wens aan. Bijvoorbeeld door de inhoud van een document dat je mee hebt genomen kopieert (let op! Headings en figuren worden natuurlijk niet meteen omgezet). 
+
+3. Navigeer in VSC naar de `some_content folder`, en creëer in die map een nieuwe markdown file (bijv. `nieuwe pagina.md`) (linksboven new file). Zet in de die file een titel (bijv. # Mijn eerste hoofdstuk).
+
+Nu heb je een eigen hoofdstuk aangemaakt, maar die is nog niet in het boek opgenomen. Dat moet je melden in de table of contents. 
+
+4. Zoek de `_toc.yml` file en open deze. Voeg het hoofdstuk toe (`- file: some_content/nieuwe_pagina`). Let op, je moet op de juiste wijze inspringen anders krijg je foutmeldingen.
+
+5. Sla alle aangepaste documenten op. (`ctrl + s`)
+
+6. Laat een van de workshopleiders even controleren.
+
+## Stap 6: Synchroniseren met GitHub
+Je hebt nu aanpassingen gedaan maar die staan nog niet op GitHub. Ga weer terug naar GitHub Desktop. Daar zie je de aangepaste bestanden. Geef een bijbehorende summary in de tekstbalk links onder, druk op `commit to main` en vervolgens op  
+
+```{figure} figures/gitdesktop edits.PNG
+---
+width: 80%
+---
+Alle aangepaste bestanden zie je links in GitHub Dekstop.
+```
+
+````{tip}
+:class:dropdown
+Een goede aanpak in werken met GitHub is als je weer verder werkt met aan je project je eerst een `pull` doet, het werk van eventuele collega's die aan hetzelfde wordt dan gekopieerd. Na het werken `commit` en `push` je je wijzigingen naar GitHub. Als de collega's op dezelfde manier werken, heeft iedereen altijd de laatste versie.
+
+```{note}
+Een stap verder is dat iedereen werkt in een eigen `branche` en deze later `merged` met de `main branch`  
+```
+````
+
+## Stap 7: Het lokaal bouwen van het boek
+
