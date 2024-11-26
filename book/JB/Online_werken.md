@@ -27,9 +27,20 @@ Breng eventueel andere wijzigingen aan in de teksteditor en als je klaar bent, c
 Het boek wordt nu opnieuw gebouwd. Als dat klaar is, kun je het resultaat op de GitHub page bekijken.
 ````
 
+```{note} Summary
+:class: dropdown
+Werk je met meerdere mensen in GitHub, of zelf aan een groot project. Dan is het verstandig om de commit een herkenbare titel te geven en eventueel een samenvatting toe te voegen wat er precies gewijzigd is. Zo kun je eventuele fouten vroegtijdig opsporen en te niet doen. Ook kun je uitleggen waarom bepaalde aanpassingen gedaan zijn.
+```
+
 ## Toevoegen van een figuur
 
-**iets over figuur toevoegen**
+Een figuur zegt soms meer dan 1000 woorden... 
+
+![Externe afbeelding](https://polslab.tnw.tudelft.nl/figures/training.JPG)
+
+Als we een figuur in ons boek willen toevoegen, dan kunnen we verwijzen naar een andere website (zoals in bovenstaande figuur). Dat brengt wel het risico met zich mee dat deze figuur niet meer zichtbaar is als de figuur van locatie verhuist. Het is dus beter dat het figuur zich in een eigen bron bestand is. 
+
+We moeten dus eerst een figuur uploaden naar GitHub en vervolgens in onze file verwijzen naar die figuur. (Let op! Later wordt dit veel makkelijker.)
 
 ````{exercise}
 **1 add file in de map**
