@@ -52,7 +52,7 @@ Normaal gesproken navigeren we door onze mappen met behulp van een grafische int
 
 Wanneer je de opdracht `dir` uitvoert, worden de mappen en bestanden in de map waarin je je momenteel bevindt, geretourneerd. Je kunt naar een andere map gaan door de opdracht `cd <NAMEFOLDER>` uit te voeren. Als je naar een hogere map wilt gaan, voer je de opdracht `cd ..` uit.
 
-```{figure} terminaldir.PNG
+```{figure} terminaldir.gif
 ---
 class: dropdown
 name: fig_terminal
