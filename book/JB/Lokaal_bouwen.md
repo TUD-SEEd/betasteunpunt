@@ -96,4 +96,22 @@ Een stap verder is dat iedereen werkt in een eigen `branche` en deze later `merg
 ````
 
 ## Stap 7: Het lokaal bouwen van het boek
+Deze manier van werken heeft een aantal voordelen: 
+- de aanpassingen zijn meteen te zien en beschikbaar voor collega's
+- de meeste handelingen voor het bouwen van het boek worden voor je uitgevoerd
+
+Maar het laten bouwen van het boek op GitHub heeft ook nadelen:
+- halffabricaten zijn zichtbaar
+- je moet verbonden zijn met het internet.
+
+Met behulp van `conda prompt` kunnen we het boek ook lokaal bouwen. 
+
+1. Open conda prompt en navigeer naar de folder waar je `book` folder staat.
+
+2. Type `jupyter-book build book` en druk enter. Nu is het proces van het bouwen van het boek te zien - eventueel met errors. Het resultaat vind je in de folder `books/_build/HTML`
+
+De eerste keer duurt het bouwen even, alle bestanden moeten immers gemaakt worden. Als je aanpassingen doet en bovenstaande wijze weer toepast is het boek sneller gebouwd. Er wordt namelijk alleen gekeken naar welke bestanden aangepast zijn. Wil je toch alle pagina's laten herbouwen, type dan `jupyter-book build book --all`. 
+
+Meer over de commando's voor het lokaal bouwen vind je [hier.](https://jupyterbook.org/en/stable/start/build.html#build-your-books-html)
+
 
