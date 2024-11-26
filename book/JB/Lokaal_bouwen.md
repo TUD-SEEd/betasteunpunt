@@ -73,7 +73,7 @@ Nu heb je een eigen hoofdstuk aangemaakt, maar die is nog niet in het boek opgen
 ## Stap 6: Synchroniseren met GitHub
 Je hebt nu aanpassingen gedaan maar die staan nog niet op GitHub. Ga weer terug naar GitHub Desktop. Daar zie je de aangepaste bestanden. Geef een bijbehorende summary in de tekstbalk links onder, druk op `commit to main` en vervolgens op `Push origin`. De bestanden worden nu geüpload naar GitHub alwaar het boek weer gebouwd wordt. 
 
-```{figure} ./figures/gitdesktop edits.PNG
+```{figure} figures/gitdesktopedits.PNG
 ---
 width: 80%
 ---
