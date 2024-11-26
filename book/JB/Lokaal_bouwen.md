@@ -10,7 +10,7 @@ Om het boek niet alleen online te bouwen en te zien, maar ook op je lokale compu
 
 <label><input type="checkbox" class="box"> De bestanden op de computer.</input></label> 
 
-De eerste drie stappen hoef je maar eenmalig uit te voeren. Als je alle benodigdheden hebt geïnstalleerd, volstaat het een volgende keer om direct naar [stap X](sec:lok) te gaan.
+De eerste drie stappen hoef je maar eenmalig uit te voeren. Als je alle benodigdheden hebt geïnstalleerd, volstaat het een volgende keer om direct naar [stap 4](sec:lok) te gaan.
 
 ## Stap 1: Miniconda installeren
 Hopelijk heb je Miniconda al geïnstalleerd, zo niet dan kun je [deze instructies](../Software/Anaconda.md) volgen. 
@@ -30,7 +30,7 @@ Om de boeken lokaal te kunnen bouwen (van markdown files omzetten naar functione
 ## Stap 4: Boek lokaal opslaan
 Het boek staat nu alleen nog online, op GitHub. We moeten alles downloaden (clonen). Dat kan zoals [hier beschreven met VSC](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=activity-bar). Maar we kiezen er hiervoor om dat te doen via GitHub Desktop.
 
-1. Open op GitHub de repository die je wilt klonen. Bovenin vind je de groene knop genaamd '<> code'
+1. Open op GitHub de repository die je wilt klonen. Bovenin vind je de groene knop genaamd `<> code`
 
 ``` {figure} ./figures/gitdesktop1.png
 ```
@@ -71,14 +71,20 @@ Nu heb je een eigen hoofdstuk aangemaakt, maar die is nog niet in het boek opgen
 6. Laat een van de workshopleiders even controleren.
 
 ## Stap 6: Synchroniseren met GitHub
-Je hebt nu aanpassingen gedaan maar die staan nog niet op GitHub. Ga weer terug naar GitHub Desktop. Daar zie je de aangepaste bestanden. Geef een bijbehorende summary in de tekstbalk links onder, druk op `commit to main` en vervolgens op  
+Je hebt nu aanpassingen gedaan maar die staan nog niet op GitHub. Ga weer terug naar GitHub Desktop. Daar zie je de aangepaste bestanden. Geef een bijbehorende summary in de tekstbalk links onder, druk op `commit to main` en vervolgens op `Push origin`. De bestanden worden nu geüpload naar GitHub alwaar het boek weer gebouwd wordt. 
 
-```{figure} figures/gitdesktop edits.PNG
+```{figure} ./figures/gitdesktop edits.PNG
 ---
 width: 80%
 ---
-Alle aangepaste bestanden zie je links in GitHub Dekstop.
+Alle aangepaste bestanden zie je links in GitHub Desktop.
 ```
+
+```{note}
+Al bovenstaande stappen kunnen ook via de terminal of via VSC, maar dat vraagt net iets meer uitleg.
+```
+
+Bekijk online het resultaat van je aangepaste boek.
 
 ````{tip}
 :class:dropdown
