@@ -1,3 +1,3 @@
-# Introductie
+# Software introductie
 
 Elk onderdeel van de cursus richt zich op een specifieke toepassing, waarvoor andere software nodig is. Hieronder geef ik een overzicht van de benodigde software, inclusief downloadlocaties. Waar relevant, worden stapsgewijze instructies en aanvullende uitleg aangeboden. Het is niet noodzakelijk om alle software direct te installeren; bij elke cursusmodule wordt duidelijk aangegeven welke software je nodig hebt.

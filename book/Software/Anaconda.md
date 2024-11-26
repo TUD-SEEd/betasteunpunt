@@ -25,12 +25,25 @@ De conda terminal waar we de versie checken.
 
 en druk op enter, de terminal zal de conda-versie retourneren.
 
+Om bepaalde packages te installeren heb je de zogenaamde `pip` pipeline nodig. Om zeker van te zijn dat deze is geïnstalleerd, type in de terminal `pip --version`. Als `pip` niet beschikbaar is, kun je deze installeren met:
+```{code}
+conda install pip
+```
+
+
 ## Requirements
+Omdat miniconda een minimale installatie is, moet je een aantal packages, libraries extra installeren. De belangrijkste staan in deze [requirements file](./requirements.txt). 
 
-Installeren van dependencies... allemaal ineengepakt in requirements.txt
+```{exercise}
+1. Download de requirements file. 
 
+2. Start miniconda prompt. 
 
-Stappen...
+3. Navigeer naar de map waarin de gedownloade file staat.
 
-[requirements](requirements.txt)
+4. Type `pip install -r requirements.txt` en druk enter.
+
+5. De packages die nog niet geïnstalleerd zijn worden nu geïnstalleerd. Dat kan even duren...
+
+```
 

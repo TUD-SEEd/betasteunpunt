@@ -2,7 +2,7 @@
 teachbooks # depends on jupyter-book
 jupyterbook-patches
 
-# 
+# Packages die je nodig hebt als je gaat programmeren in Python
 # numpy
 # scipy
 # matplotlib
