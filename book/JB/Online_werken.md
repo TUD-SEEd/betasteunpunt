@@ -14,7 +14,7 @@ De folderstructuur in het templateboek.
 
 We gaan nu aan de slag met een kleine aanpassing aan een van de bestanden om vervolgens te kijken naar het resultaat van die wijziging.
 
-````{exercise} De eerste aanpassing
+````{exercise} Je eerste aanpassing
 Navigeer naar het bestand `book/some_content/overview.md`. Klik dan op de pen aan de rechterkant (edit this file).
 
 Verander de tekst na de `#`. Dit is de titel van het bestand.
@@ -43,9 +43,9 @@ Als we een figuur in ons boek willen toevoegen, dan kunnen we verwijzen naar een
 We moeten dus eerst een figuur uploaden naar GitHub en vervolgens in onze file verwijzen naar die figuur. (Let op! Later wordt dit veel makkelijker.)
 
 `````{exercise}
-Op GitHub, onder het kopje code...
+Op GitHub, onder het kopje `code`...
 
-1. Navigeer naar book/figures en klik op `add file` -> `Upload files`. 
+1. Navigeer naar book/figures en klik op `add file` {fa}`right-long` `Upload files`. 
 ```` {figure} figures/incl_fig.PNG
 ---
 width: 50%
@@ -54,8 +54,8 @@ add bestand in de folder
 ````
 2. Kies de figuur die je toe wilt voegen (onthoud de naam van de file!).
 3. Commit je veranderingen naar github (het bestand wordt geupload)
-4. Navigeer naar book en open intro.md en druk op edit this file.
-5. Kopieer de code hieronder waarbij je de naam van het figuur aanpast.
+4. Navigeer naar book en open `intro.md` en druk op `edit this file`.
+5. Kopieer de code hieronder naar die file, pas de naam van het figuur aan naar de naam van je eigen figuur.
 
 ````{code}
 ``` {figure} figures/incl_fig.PNG
@@ -69,14 +69,25 @@ add bestand in de folder
 
 6. Commit je verandering en bekijk het resultaat op GitHub pages.
 
-````{tip}
+`````
+
+```{warning}
+De code is hoofdletter gevoelig. Het maakt dus uit of je extentie .png is of .PNG
+```
+
+```{tip}
 We hebben een pagina met alle belangrijke [codes](./Cheatsheet.md).
 
 Nog meer informatie over de opties bij figuren vind je [hier](https://teachbooks.io/manual/basic-features/figures.html).
-````
-`````
+```
 
 **Iets meer uitleg over figuur en verwijzen naar figuur**
 
+
+## Je favoriete vergelijking
+
+```{exercise} Een vergelijking toevoegen
+Kijk eens op de [Cheatsheet pagina](./Cheatsheet.md) hoe je een formule toevoegt en probeer dat eens...
+```
 
 
