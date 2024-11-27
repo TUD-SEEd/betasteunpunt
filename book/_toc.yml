@@ -1,5 +1,5 @@
 format: jb-book
-root: start.md
+root: start
 
 parts:
   - caption:

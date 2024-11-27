@@ -1,14 +1,25 @@
 # Lokaal bouwen
+Het werken met GitHub, het boek daar laten bouwen, heeft een aantal voordelen: 
+- de aanpassingen zijn meteen te zien en beschikbaar voor collega's
+- de meeste handelingen voor het bouwen van het boek worden voor je uitgevoerd.
 
-Om het boek niet alleen online te bouwen en te zien, maar ook op je lokale computer te maken en bouwen heb je het volgende nodig: 
+Maar het laten bouwen van het boek op GitHub heeft ook nadelen:
+- halffabricaten zijn zichtbaar
+- je moet verbonden zijn met het internet
+- de output is (veel) sneller te zien
+
+Om het boek niet alleen online te bouwen en te zien, maar ook op je lokale computer te maken heb je het volgende nodig.
 
 <label><input type="checkbox" class="box"> Python, bijv. via [conda](../Software/Anaconda.md).</input></label> 
 
 <label><input type="checkbox" class="box"> Een integrated development environment (IDE) zoals [VSC](../Software/VSC.md).</input></label> 
 
-<label><input type="checkbox" class="box"> De juiste software packages.</input></label> 
 
 <label><input type="checkbox" class="box"> De bestanden op de computer.</input></label> 
+
+Wil je ook nog offline het boek kunnen bouwen, dan heb je ook nog nodig: 
+
+<label><input type="checkbox" class="box"> De juiste software packages.</input></label> 
 
 De eerste drie stappen hoef je maar eenmalig uit te voeren. Als je alle benodigdheden hebt geïnstalleerd, volstaat het een volgende keer om direct naar [stap 4](sec:lok) te gaan.
 
@@ -23,7 +34,7 @@ Om bestanden te kunnen bewerken en (een deel van) de output te kunnen zien, is h
 
 Ook hier geldt, heb je meer informatie nodig, kijk dan [hier](https://teachbooks.io/learn-programming/install/ide/vsc.html).
 
-## Stap 3: Jupyter-book
+## Stap 3: Jupyter-book (optioneel)
 Om de boeken lokaal te kunnen bouwen (van markdown files omzetten naar functionele HTML pagina's) heb je nog een aantal packages nodig, zie bijv. [Jupyter book](https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book). Dat kun je zelf handmatig doen, maar de Teachbooks tool voorziet daar ook in. Heb je dat nog niet gedaan, bekijk dan de sectie over de [requirements](seq:req) en volg de stappen die daar beschrijven staan. Dan ben je als het goed is klaar om ook op de eigen computer het boek te bouwen en bekijken.
 
 (sec:lok)=
@@ -111,16 +122,7 @@ Een stap verder is dat iedereen werkt in een eigen `branche` en deze later `merg
 ```
 ````
 
-## Stap 7: Het lokaal bouwen van het boek
-Het werken met GitHub, het boek daar laten bouwen, heeft een aantal voordelen: 
-- de aanpassingen zijn meteen te zien en beschikbaar voor collega's
-- de meeste handelingen voor het bouwen van het boek worden voor je uitgevoerd.
-
-Maar het laten bouwen van het boek op GitHub heeft ook nadelen:
-- halffabricaten zijn zichtbaar
-- je moet verbonden zijn met het internet
-- de output is (veel) sneller te zien
-
+## Stap 7: Het lokaal bouwen van het boek (optioneel)
 Met behulp van `conda prompt` kunnen we het boek ook lokaal bouwen. 
 
 1. Open conda prompt en navigeer naar de folder waar je `book` folder staat.
