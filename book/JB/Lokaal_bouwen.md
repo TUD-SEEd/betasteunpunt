@@ -58,13 +58,29 @@ De bestanden worden nu gekopieerd en je hebt een lokale (exacte) kopie van de re
 ## Stap 5: Aanpassing maken in VSC
 1. Open VSC en open de folder waarin het *boek* staat. Je kunt dezelfde folder structuur herkennen die op GitHub stond. 
 
-2. Open het `overview.md` bestand en pas deze naar eigen wens aan. Bijvoorbeeld door de inhoud van een document dat je mee hebt genomen kopieert (let op! Headings en figuren worden natuurlijk niet meteen omgezet). 
+2. Open de file `overview.md` en pas deze naar eigen wens aan, bijvoorbeeld door de inhoud van een document dat je mee hebt genomen kopieert (let op! Headings en figuren worden natuurlijk niet meteen omgezet). Sla de bewerkingen op. Je kunt een preview krijgen van de output door op ![](./figures/vscpreview.PNG) te klikken.
 
-3. Navigeer in VSC naar de `some_content folder`, en creëer in die map een nieuwe markdown file (bijv. `nieuwe pagina.md`) (linksboven new file). Zet in de die file een titel (bijv. # Mijn eerste hoofdstuk).
+```{figure} figures/vscpreviewscreen.png
+---
+width: 100%
+name: fig_previewscreen
+---
+Bewerken in VSC, links de folder structuur, in het midden de code in de markdown file, rechts een preview van de output.
+```
+
+3. Navigeer in VSC naar de `some_content folder`, en creëer in die map een nieuwe markdown file (bijv. `nieuwe pagina.md`) (linksboven new file). Zet in de die file een titel (bijv. `# Mijn eerste hoofdstuk`).
 
 Nu heb je een eigen hoofdstuk aangemaakt, maar die is nog niet in het boek opgenomen. Dat moet je melden in de table of contents. 
 
 4. Zoek de `_toc.yml` file en open deze. Voeg het hoofdstuk toe (`- file: some_content/nieuwe_pagina`). Let op, je moet op de juiste wijze inspringen anders krijg je foutmeldingen.
+
+```{figure} figures/toc.PNG
+---
+width: 50%
+name: fig_toc
+---
+Het nieuwe hoofdstuk is toegevoegd in de table of contents
+```
 
 5. Sla alle aangepaste documenten op. (`ctrl + s`)
 
@@ -96,22 +112,26 @@ Een stap verder is dat iedereen werkt in een eigen `branche` en deze later `merg
 ````
 
 ## Stap 7: Het lokaal bouwen van het boek
-Deze manier van werken heeft een aantal voordelen: 
+Het werken met GitHub, het boek daar laten bouwen, heeft een aantal voordelen: 
 - de aanpassingen zijn meteen te zien en beschikbaar voor collega's
-- de meeste handelingen voor het bouwen van het boek worden voor je uitgevoerd
+- de meeste handelingen voor het bouwen van het boek worden voor je uitgevoerd.
 
 Maar het laten bouwen van het boek op GitHub heeft ook nadelen:
 - halffabricaten zijn zichtbaar
-- je moet verbonden zijn met het internet.
+- je moet verbonden zijn met het internet
+- de output is (veel) sneller te zien
 
 Met behulp van `conda prompt` kunnen we het boek ook lokaal bouwen. 
 
 1. Open conda prompt en navigeer naar de folder waar je `book` folder staat.
 
-2. Type `jupyter-book build book` en druk enter. Nu is het proces van het bouwen van het boek te zien - eventueel met errors. Het resultaat vind je in de folder `books/_build/HTML`
+2. Type `jupyter-book build book` en druk enter. Nu is het proces van het bouwen van het boek te zien - eventueel met errors. Het resultaat vind je in de folder `books/_build/html`. 
 
 De eerste keer duurt het bouwen even, alle bestanden moeten immers gemaakt worden. Als je aanpassingen doet en bovenstaande wijze weer toepast is het boek sneller gebouwd. Er wordt namelijk alleen gekeken naar welke bestanden aangepast zijn. Wil je toch alle pagina's laten herbouwen, type dan `jupyter-book build book --all`. 
 
 Meer over de commando's voor het lokaal bouwen vind je [hier.](https://jupyterbook.org/en/stable/start/build.html#build-your-books-html)
 
+```{exercise} Lokaal bouwen
+Voer de bovenstaande stappen uit om het boek lokaal te bouwen. Bekijk de output.
+```
 

@@ -2,7 +2,12 @@
 Hier een aantal standaard codes als referentie.
 
 ## Headings
-Onderscheid in titels voor chapters `# Chapter`, secties `## Section` en subsecties`### Subsection`. Je kunt deze delen van een label `(sec-YT)= ## YT video` voorzien en er naar verwijzen, zoals naar het interessant deel over [Youtube Videos.](sec-YT)
+Onderscheid in titels voor chapters `# Chapter`, secties `## Section` en subsecties`### Subsection`. Je kunt deze delen van een label voorzien:
+```{code}
+(sec-YT)= 
+## YT video`
+```
+en er naar verwijzen, zoals naar het interessant deel over [Youtube Videos.](sec-YT) (code voor de referentie: `[Youtube Videos.](sec-YT)`).
 
 ## Figuren
 Aanmaken van een figuur, met label (name)
@@ -111,6 +116,7 @@ Met als output:
 
 Methode 2 heeft als voordeel de mogelijkheid tot refereren naar {numref}`Tabel {number} <tb_sancties>`
 
+(sec-ref)=
 ## Referenties
 Hier kun je een [link](https://nos.nl) kwijt met: `[tekst](url)`
 

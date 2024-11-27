@@ -2,23 +2,23 @@
 
 Je hebt nu (hopelijk) de basics een beetje door. De volgende stap is (meer) zelfstandig aan de slag te gaan met het maken van een opgemaakt hoofdstuk.
 
-```{exercise}
+```{exercise} Hoofdstuk toevoegen
 Maak een nieuw markdown file aan, geef deze een hoofdstuk titel en voeg deze toe in de Table of Contents.
 ```
 
-```{exercise}
+```{exercise} Secties en content toevoegen
 Voeg tekst toe, verdeeld in secties en subsecties. Voeg ook een figuur toe. Verwijs in de tekst naar deze figuur (clickable link).
 ```
 
-```{exercise}
-Refereer in de tekst naar een ander hoofdstuk `[tekst](link)`. 
+```{exercise} Verwijzing naar een hoofdstuk
+[Refereer](sec-ref) in de tekst naar een ander hoofdstuk `[tekst](link)`. 
 ```
 
-```{exercise}
-Voeg een YouTube filmpje toe.
+```{exercise} YouTube filmpje toevoegen
+Voeg een [YouTube filmpje](sec-YT) toe.
 ```
 
-```{exercise}
+```{exercise} Admonitions toevoegen
 Voeg een admoniton toe, bijvoorbeeld een exercise, warning, of tip.
 ```
 

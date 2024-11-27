@@ -57,7 +57,7 @@ Je kunt ze ook nog handmatig installeren met de code `pip install <package>`
 ````{admonition} Gebruik van de terminal en command line
 Normaal gesproken navigeren we door onze mappen met behulp van een grafische interface en klikken we door de mappen. Er is echter een andere manier om door mappen te navigeren, namelijk via de opdrachtregel (terminal) zoals we doen met de Anaconda-prompt.
 
-Wanneer je de opdracht `dir` uitvoert, worden de mappen en bestanden in de map waarin je je momenteel bevindt, geretourneerd. Je kunt naar een andere map gaan door de opdracht `cd <NAMEFOLDER>` uit te voeren. Als je naar een hogere map wilt gaan, voer je de opdracht `cd ..` uit.
+Wanneer je de opdracht `dir` uitvoert, worden de mappen en bestanden in de map waarin je je momenteel bevindt, geretourneerd. Je kunt naar een andere map gaan door de opdracht `cd <NAMEFOLDER>` uit te voeren. Als je naar een hogere map wilt gaan, voer je de opdracht `cd ..` uit. Met [TAB] kun je auto-complete uitvoeren, d.w.z. de precieze folder naam wordt automatisch voor je gegenereerd.
 
 ```{figure} terminaldir.gif
 ---
