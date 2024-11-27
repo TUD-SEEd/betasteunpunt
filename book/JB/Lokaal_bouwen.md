@@ -34,7 +34,7 @@ Om bestanden te kunnen bewerken en (een deel van) de output te kunnen zien, is h
 
 Ook hier geldt, heb je meer informatie nodig, kijk dan [hier](https://teachbooks.io/learn-programming/install/ide/vsc.html).
 
-## Stap 3: Jupyter-book (optioneel)
+## Stap 3: Installeren Jupyter-Book (optioneel)
 Om de boeken lokaal te kunnen bouwen (van markdown files omzetten naar functionele HTML pagina's) heb je nog een aantal packages nodig, zie bijv. [Jupyter book](https://jupyterbook.org/en/stable/start/overview.html#install-jupyter-book). Dat kun je zelf handmatig doen, maar de Teachbooks tool voorziet daar ook in. Heb je dat nog niet gedaan, bekijk dan de sectie over de [requirements](seq:req) en volg de stappen die daar beschrijven staan. Dan ben je als het goed is klaar om ook op de eigen computer het boek te bouwen en bekijken.
 
 (sec:lok)=

@@ -30,6 +30,7 @@ sphinx:
     - sphinx.ext.imgconverter
     #- jupyterbook_patches
     - sphinx_exercise
+    - sphinx_image_inverter
 
 bibtex_bibfiles: 
   - references.bib
