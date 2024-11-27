@@ -36,6 +36,7 @@ parts:
     - file: JB/Lokaal_bouwen
     - file: JB/Editing
     - file: JB/JupNob.ipynb
+    - file: JB/Verder
     - file: JB/Cheatsheet
     
   - caption: Arduino

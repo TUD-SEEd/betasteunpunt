@@ -25,3 +25,31 @@ Voeg een admoniton toe, bijvoorbeeld een exercise, warning, of tip.
 ```{tip}
 Vergeet niet om regelmatig je boek te laten bouwen om zo vroegtijdig eventuele fouten op te sporen!
 ```
+
+`````{exercise} Literatuur referentie
+Een van de documenten in de folder heet references.bib. Dat bestand is je literatuurlijst. In de lijst vind je al een referentie:
+```{code}
+@misc{jason_moore,
+  title={Learn Multibody Dynamics, SymPy},
+  author={Moore, Jason},
+  howpublished={\url{https://moorepants.github.io/learn-multibody-dynamics/sympy.html}},
+  year={2023}
+}
+```
+Die referentie kun je oproepen via ``{cite:p}`jason_moore` ``, met als output: {cite:p}`jason_moore`
+
+Zoek via google scholar een referentie op, klik op citeren en BibTeX. Kopier de code naar de reference.bib file en neem die referentie op in je hoofdstuk.
+
+Om de referentie op te nemen op de pagina zelf, moet de volgend code toegevoegd worden:
+````{code}
+```{bibliography}
+:filter: docname in docnames
+```
+````
+
+
+`````
+
+```{bibliography}
+:filter: docname in docnames
+```
