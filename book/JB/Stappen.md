@@ -19,7 +19,7 @@ Volg de volgende stappen uit deze animatie, hieronder stapsgewijs uitgewerkt:
 
 Het boek wordt nu nog een keer aangemaakt en ingeladen in de githubpages. 
 
-```{figure} Figures/rerunjobs.PNG
+```{figure} figures/rerunjobs.PNG
 ---
 name: fig_rerun
 width: 70%
