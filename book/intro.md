@@ -1,4 +1,4 @@
-# Introductie
+# Introductie voor de cursus
 
 Sinds ~2010 geef ik cursussen voor (beta)docenten. Een deel van die cursussen zijn gerelateerd aan ICT. Die cursussen lenen zich goed voor een online-hands on benadering: leren door direct toe te passen. In dit online open access boek vind je drie cursussen: Python, Jupyter Books en Arduino. Die cursussen kun je zelf volgen / uitvoeren zodat je leert werken met de ICT applicatie. Je kunt de cursussen gebruiken om je onderwijs voor je leerlingen / studenten vorm te geven. En je kunt zelfs het cursusmateriaal gebruiken om je eigen workshops mee te geven, zie daarvoor de [licenties](sec:licentie).
 
