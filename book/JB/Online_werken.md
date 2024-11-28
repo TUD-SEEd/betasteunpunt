@@ -89,4 +89,8 @@ Je kunt figuren op verschillende plaatsen positioneren (links / midden / rechts 
 Kijk eens op de [Cheatsheet pagina](./Cheatsheet.md) hoe je een formule toevoegt en probeer dat eens...
 ```
 
+## En andere aanpassingen
 
+```{exercise} Andere aanpassingen
+Probeer eens wat andere aanpassingen te maken, bijvoorbeeld door de structuur van de pagina verder uit te werken in secties en subsecties, elk met wat tekst. Bekijk het resultaat.
+```
