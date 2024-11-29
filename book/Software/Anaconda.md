@@ -19,6 +19,7 @@ conda --version
 name: fig_condaversion
 figclass: margin
 width: 100%
+alt: de terminal met de coda die laat zien dat conda is geinstalleerd en met welke versie.
 ---
 De conda terminal waar we de versie checken.
 ```
